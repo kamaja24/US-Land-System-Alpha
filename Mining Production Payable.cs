@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace US_Land_System_Alpha
 {
-    public partial class Leases : Form
+    public partial class Mining_Production_Payable: Form
     {
-        public Leases()
+        public Mining_Production_Payable()
         {
             InitializeComponent();
-        }
-
-        private void textBox30_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox43_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

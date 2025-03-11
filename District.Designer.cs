@@ -30,11 +30,13 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            textBox2 = new TextBox();
             label2 = new Label();
+            Name_Value = new TextBox();
+            label1 = new Label();
+            ID_Value = new TextBox();
+            tabPage2 = new TabPage();
+            BackButton = new Button();
+            SaveButton = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             SuspendLayout();
@@ -52,9 +54,9 @@
             // tabPage1
             // 
             tabPage1.Controls.Add(label2);
-            tabPage1.Controls.Add(textBox2);
+            tabPage1.Controls.Add(Name_Value);
             tabPage1.Controls.Add(label1);
-            tabPage1.Controls.Add(textBox1);
+            tabPage1.Controls.Add(ID_Value);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -62,6 +64,38 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(6, 151);
+            label2.Name = "label2";
+            label2.Size = new Size(39, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Name";
+            // 
+            // Name_Value
+            // 
+            Name_Value.Location = new Point(51, 148);
+            Name_Value.Name = "Name_Value";
+            Name_Value.Size = new Size(340, 23);
+            Name_Value.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(6, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(18, 15);
+            label1.TabIndex = 1;
+            label1.Text = "ID";
+            // 
+            // ID_Value
+            // 
+            ID_Value.Location = new Point(51, 6);
+            ID_Value.Name = "ID_Value";
+            ID_Value.Size = new Size(340, 23);
+            ID_Value.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -73,43 +107,33 @@
             tabPage2.Text = "Notes";
             tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // BackButton
             // 
-            textBox1.Location = new Point(51, 6);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(340, 23);
-            textBox1.TabIndex = 0;
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 10;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
             // 
-            // label1
+            // SaveButton
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(6, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(18, 15);
-            label1.TabIndex = 1;
-            label1.Text = "ID";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(51, 148);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(340, 23);
-            textBox2.TabIndex = 2;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(6, 151);
-            label2.Name = "label2";
-            label2.Size = new Size(39, 15);
-            label2.TabIndex = 3;
-            label2.Text = "Name";
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 11;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
             // 
             // District
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(tabControl1);
             Name = "District";
             Text = "District";
@@ -124,9 +148,11 @@
         private TabControl tabControl1;
         private TabPage tabPage1;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox ID_Value;
         private TabPage tabPage2;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox Name_Value;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

@@ -20,7 +20,7 @@ namespace US_Land_System_Alpha
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=GROOPER1\\GROOPERSQL4;Initial Catalog=USLandSystem1;User ID=SQLAdmin;Password=intOGS(22);TrustServerCertificate=True" ;
+            string connectionString = "Data Source=GROOPER1\\GROOPERSQL4;Initial Catalog=USLandSystem1;User ID=SQLAdmin;Password=intOGS(22);TrustServerCertificate=True";
             string sqlQuery = "INSERT INTO PPI (PPI_ID, PPI_Multiplier, Effective_Date, Expiration_Date) VALUES (" + "'" + PPI_Value.Text + "'" + "," + "'" + PPIMultiplier_Value + "'" + "," + "'" + EffectiveDate_Value + "'" + "," + "'" + ExpirationDate_Value + "'" + ")";
             SqlConnection con = new SqlConnection(connectionString);
             con.Open();
@@ -34,6 +34,11 @@ namespace US_Land_System_Alpha
             this.Hide();
             HomePage homePage = new HomePage();
             homePage.Show();
+        }
+
+        private void PPI_Value_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

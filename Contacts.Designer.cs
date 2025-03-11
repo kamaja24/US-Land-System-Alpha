@@ -30,54 +30,56 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            InHouseOwner_Value = new CheckBox();
+            FederalTaxWithold_Value = new CheckBox();
+            OtherExempt_Value = new CheckBox();
+            ExpenseExempt_Value = new CheckBox();
+            SeveranceTaxExempt_Value = new CheckBox();
+            Send1099_Value = new CheckBox();
+            Active_Value = new CheckBox();
+            label19 = new Label();
+            NoPayCode_Value = new ComboBox();
+            label18 = new Label();
+            WebPage_Value = new TextBox();
+            label17 = new Label();
+            Email_Value = new TextBox();
+            TaxIDType_Value = new ComboBox();
+            label16 = new Label();
+            label15 = new Label();
+            TaxID_Value = new TextBox();
+            label14 = new Label();
+            AlternateID_Value = new TextBox();
+            label13 = new Label();
+            BankAccountNumber_Value = new TextBox();
+            label12 = new Label();
+            DefaultBankID_Value = new TextBox();
+            label11 = new Label();
+            GeneralClass_Value = new TextBox();
+            label10 = new Label();
+            TenureCode_Value = new TextBox();
+            label9 = new Label();
+            Home_Value = new TextBox();
+            label8 = new Label();
+            Work_Value = new TextBox();
+            label7 = new Label();
+            Mobile_Value = new TextBox();
+            label6 = new Label();
+            Address_Value = new TextBox();
+            label5 = new Label();
+            FullName_Value = new TextBox();
+            label4 = new Label();
+            OwnerID_Value = new TextBox();
             tabPage2 = new TabPage();
             tabPage3 = new TabPage();
-            comboBox1 = new ComboBox();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            checkBox1 = new CheckBox();
             label3 = new Label();
-            textBox3 = new TextBox();
-            label4 = new Label();
-            textBox4 = new TextBox();
-            label5 = new Label();
-            textBox5 = new TextBox();
-            label6 = new Label();
-            textBox6 = new TextBox();
-            label7 = new Label();
-            textBox7 = new TextBox();
-            label8 = new Label();
-            textBox8 = new TextBox();
-            label9 = new Label();
-            textBox9 = new TextBox();
-            label10 = new Label();
-            textBox10 = new TextBox();
-            label11 = new Label();
-            textBox11 = new TextBox();
-            label12 = new Label();
-            textBox12 = new TextBox();
-            label13 = new Label();
-            textBox13 = new TextBox();
-            label14 = new Label();
-            textBox14 = new TextBox();
-            label15 = new Label();
-            label16 = new Label();
-            comboBox2 = new ComboBox();
-            textBox15 = new TextBox();
-            label17 = new Label();
-            textBox16 = new TextBox();
-            label18 = new Label();
-            comboBox3 = new ComboBox();
-            label19 = new Label();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox5 = new CheckBox();
-            checkBox6 = new CheckBox();
-            checkBox7 = new CheckBox();
-            checkBox8 = new CheckBox();
+            Reminder_Value = new CheckBox();
+            Notes_Value = new TextBox();
+            label2 = new Label();
+            ContactDate_Value = new TextBox();
+            label1 = new Label();
+            ContactType_Value = new ComboBox();
+            BackButton = new Button();
+            SaveButton = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage3.SuspendLayout();
@@ -96,45 +98,45 @@
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(checkBox8);
-            tabPage1.Controls.Add(checkBox7);
-            tabPage1.Controls.Add(checkBox6);
-            tabPage1.Controls.Add(checkBox5);
-            tabPage1.Controls.Add(checkBox4);
-            tabPage1.Controls.Add(checkBox3);
-            tabPage1.Controls.Add(checkBox2);
+            tabPage1.Controls.Add(InHouseOwner_Value);
+            tabPage1.Controls.Add(FederalTaxWithold_Value);
+            tabPage1.Controls.Add(OtherExempt_Value);
+            tabPage1.Controls.Add(ExpenseExempt_Value);
+            tabPage1.Controls.Add(SeveranceTaxExempt_Value);
+            tabPage1.Controls.Add(Send1099_Value);
+            tabPage1.Controls.Add(Active_Value);
             tabPage1.Controls.Add(label19);
-            tabPage1.Controls.Add(comboBox3);
+            tabPage1.Controls.Add(NoPayCode_Value);
             tabPage1.Controls.Add(label18);
-            tabPage1.Controls.Add(textBox16);
+            tabPage1.Controls.Add(WebPage_Value);
             tabPage1.Controls.Add(label17);
-            tabPage1.Controls.Add(textBox15);
-            tabPage1.Controls.Add(comboBox2);
+            tabPage1.Controls.Add(Email_Value);
+            tabPage1.Controls.Add(TaxIDType_Value);
             tabPage1.Controls.Add(label16);
             tabPage1.Controls.Add(label15);
-            tabPage1.Controls.Add(textBox14);
+            tabPage1.Controls.Add(TaxID_Value);
             tabPage1.Controls.Add(label14);
-            tabPage1.Controls.Add(textBox13);
+            tabPage1.Controls.Add(AlternateID_Value);
             tabPage1.Controls.Add(label13);
-            tabPage1.Controls.Add(textBox12);
+            tabPage1.Controls.Add(BankAccountNumber_Value);
             tabPage1.Controls.Add(label12);
-            tabPage1.Controls.Add(textBox11);
+            tabPage1.Controls.Add(DefaultBankID_Value);
             tabPage1.Controls.Add(label11);
-            tabPage1.Controls.Add(textBox10);
+            tabPage1.Controls.Add(GeneralClass_Value);
             tabPage1.Controls.Add(label10);
-            tabPage1.Controls.Add(textBox9);
+            tabPage1.Controls.Add(TenureCode_Value);
             tabPage1.Controls.Add(label9);
-            tabPage1.Controls.Add(textBox8);
+            tabPage1.Controls.Add(Home_Value);
             tabPage1.Controls.Add(label8);
-            tabPage1.Controls.Add(textBox7);
+            tabPage1.Controls.Add(Work_Value);
             tabPage1.Controls.Add(label7);
-            tabPage1.Controls.Add(textBox6);
+            tabPage1.Controls.Add(Mobile_Value);
             tabPage1.Controls.Add(label6);
-            tabPage1.Controls.Add(textBox5);
+            tabPage1.Controls.Add(Address_Value);
             tabPage1.Controls.Add(label5);
-            tabPage1.Controls.Add(textBox4);
+            tabPage1.Controls.Add(FullName_Value);
             tabPage1.Controls.Add(label4);
-            tabPage1.Controls.Add(textBox3);
+            tabPage1.Controls.Add(OwnerID_Value);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -142,6 +144,335 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // InHouseOwner_Value
+            // 
+            InHouseOwner_Value.AutoSize = true;
+            InHouseOwner_Value.Location = new Point(699, 156);
+            InHouseOwner_Value.Name = "InHouseOwner_Value";
+            InHouseOwner_Value.Size = new Size(116, 19);
+            InHouseOwner_Value.TabIndex = 39;
+            InHouseOwner_Value.Text = "In House Owner?";
+            InHouseOwner_Value.UseVisualStyleBackColor = true;
+            // 
+            // FederalTaxWithold_Value
+            // 
+            FederalTaxWithold_Value.AutoSize = true;
+            FederalTaxWithold_Value.Location = new Point(699, 131);
+            FederalTaxWithold_Value.Name = "FederalTaxWithold_Value";
+            FederalTaxWithold_Value.Size = new Size(134, 19);
+            FederalTaxWithold_Value.TabIndex = 38;
+            FederalTaxWithold_Value.Text = "Federal Tax Withold?";
+            FederalTaxWithold_Value.UseVisualStyleBackColor = true;
+            FederalTaxWithold_Value.CheckedChanged += checkBox7_CheckedChanged;
+            // 
+            // OtherExempt_Value
+            // 
+            OtherExempt_Value.AutoSize = true;
+            OtherExempt_Value.Location = new Point(699, 106);
+            OtherExempt_Value.Name = "OtherExempt_Value";
+            OtherExempt_Value.Size = new Size(113, 19);
+            OtherExempt_Value.TabIndex = 37;
+            OtherExempt_Value.Text = "\"Other\" Exempt?";
+            OtherExempt_Value.UseVisualStyleBackColor = true;
+            // 
+            // ExpenseExempt_Value
+            // 
+            ExpenseExempt_Value.AutoSize = true;
+            ExpenseExempt_Value.Location = new Point(699, 81);
+            ExpenseExempt_Value.Name = "ExpenseExempt_Value";
+            ExpenseExempt_Value.Size = new Size(115, 19);
+            ExpenseExempt_Value.TabIndex = 36;
+            ExpenseExempt_Value.Text = "Expense Exempt?";
+            ExpenseExempt_Value.UseVisualStyleBackColor = true;
+            // 
+            // SeveranceTaxExempt_Value
+            // 
+            SeveranceTaxExempt_Value.AutoSize = true;
+            SeveranceTaxExempt_Value.Location = new Point(699, 56);
+            SeveranceTaxExempt_Value.Name = "SeveranceTaxExempt_Value";
+            SeveranceTaxExempt_Value.Size = new Size(146, 19);
+            SeveranceTaxExempt_Value.TabIndex = 35;
+            SeveranceTaxExempt_Value.Text = "Severance Tax Exempt?";
+            SeveranceTaxExempt_Value.UseVisualStyleBackColor = true;
+            // 
+            // Send1099_Value
+            // 
+            Send1099_Value.AutoSize = true;
+            Send1099_Value.Location = new Point(699, 31);
+            Send1099_Value.Name = "Send1099_Value";
+            Send1099_Value.Size = new Size(84, 19);
+            Send1099_Value.TabIndex = 34;
+            Send1099_Value.Text = "Send 1099?";
+            Send1099_Value.UseVisualStyleBackColor = true;
+            // 
+            // Active_Value
+            // 
+            Active_Value.AutoSize = true;
+            Active_Value.Location = new Point(699, 6);
+            Active_Value.Name = "Active_Value";
+            Active_Value.Size = new Size(64, 19);
+            Active_Value.TabIndex = 33;
+            Active_Value.Text = "Active?";
+            Active_Value.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(396, 159);
+            label19.Name = "label19";
+            label19.Size = new Size(88, 15);
+            label19.TabIndex = 32;
+            label19.Text = "\"No-Pay\" Code";
+            // 
+            // NoPayCode_Value
+            // 
+            NoPayCode_Value.FormattingEnabled = true;
+            NoPayCode_Value.Location = new Point(490, 154);
+            NoPayCode_Value.Name = "NoPayCode_Value";
+            NoPayCode_Value.Size = new Size(203, 23);
+            NoPayCode_Value.TabIndex = 31;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(424, 128);
+            label18.Name = "label18";
+            label18.Size = new Size(60, 15);
+            label18.TabIndex = 30;
+            label18.Text = "Web Page";
+            // 
+            // WebPage_Value
+            // 
+            WebPage_Value.Location = new Point(490, 125);
+            WebPage_Value.Name = "WebPage_Value";
+            WebPage_Value.Size = new Size(203, 23);
+            WebPage_Value.TabIndex = 29;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(448, 99);
+            label17.Name = "label17";
+            label17.Size = new Size(36, 15);
+            label17.TabIndex = 28;
+            label17.Text = "Email";
+            // 
+            // Email_Value
+            // 
+            Email_Value.Location = new Point(490, 96);
+            Email_Value.Name = "Email_Value";
+            Email_Value.Size = new Size(203, 23);
+            Email_Value.TabIndex = 27;
+            // 
+            // TaxIDType_Value
+            // 
+            TaxIDType_Value.FormattingEnabled = true;
+            TaxIDType_Value.Location = new Point(490, 67);
+            TaxIDType_Value.Name = "TaxIDType_Value";
+            TaxIDType_Value.Size = new Size(203, 23);
+            TaxIDType_Value.TabIndex = 26;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(419, 70);
+            label16.Name = "label16";
+            label16.Size = new Size(66, 15);
+            label16.TabIndex = 25;
+            label16.Text = "Tax ID Type";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(446, 41);
+            label15.Name = "label15";
+            label15.Size = new Size(38, 15);
+            label15.TabIndex = 23;
+            label15.Text = "Tax ID";
+            // 
+            // TaxID_Value
+            // 
+            TaxID_Value.Location = new Point(490, 38);
+            TaxID_Value.Name = "TaxID_Value";
+            TaxID_Value.Size = new Size(203, 23);
+            TaxID_Value.TabIndex = 22;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(415, 12);
+            label14.Name = "label14";
+            label14.Size = new Size(69, 15);
+            label14.TabIndex = 21;
+            label14.Text = "Alternate ID";
+            // 
+            // AlternateID_Value
+            // 
+            AlternateID_Value.Location = new Point(490, 9);
+            AlternateID_Value.Name = "AlternateID_Value";
+            AlternateID_Value.Size = new Size(203, 23);
+            AlternateID_Value.TabIndex = 20;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(6, 270);
+            label13.Name = "label13";
+            label13.Size = new Size(128, 15);
+            label13.TabIndex = 19;
+            label13.Text = "Bank Account Number";
+            // 
+            // BankAccountNumber_Value
+            // 
+            BankAccountNumber_Value.Location = new Point(140, 267);
+            BankAccountNumber_Value.Name = "BankAccountNumber_Value";
+            BankAccountNumber_Value.Size = new Size(203, 23);
+            BankAccountNumber_Value.TabIndex = 18;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(6, 241);
+            label12.Name = "label12";
+            label12.Size = new Size(88, 15);
+            label12.TabIndex = 17;
+            label12.Text = "Default Bank ID";
+            // 
+            // DefaultBankID_Value
+            // 
+            DefaultBankID_Value.Location = new Point(140, 238);
+            DefaultBankID_Value.Name = "DefaultBankID_Value";
+            DefaultBankID_Value.Size = new Size(203, 23);
+            DefaultBankID_Value.TabIndex = 16;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(6, 212);
+            label11.Name = "label11";
+            label11.Size = new Size(77, 15);
+            label11.TabIndex = 15;
+            label11.Text = "General Class";
+            // 
+            // GeneralClass_Value
+            // 
+            GeneralClass_Value.Location = new Point(140, 209);
+            GeneralClass_Value.Name = "GeneralClass_Value";
+            GeneralClass_Value.Size = new Size(203, 23);
+            GeneralClass_Value.TabIndex = 14;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(6, 183);
+            label10.Name = "label10";
+            label10.Size = new Size(74, 15);
+            label10.TabIndex = 13;
+            label10.Text = "Tenure Code";
+            // 
+            // TenureCode_Value
+            // 
+            TenureCode_Value.Location = new Point(140, 180);
+            TenureCode_Value.Name = "TenureCode_Value";
+            TenureCode_Value.Size = new Size(203, 23);
+            TenureCode_Value.TabIndex = 12;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(6, 154);
+            label9.Name = "label9";
+            label9.Size = new Size(40, 15);
+            label9.TabIndex = 11;
+            label9.Text = "Home";
+            // 
+            // Home_Value
+            // 
+            Home_Value.Location = new Point(140, 151);
+            Home_Value.Name = "Home_Value";
+            Home_Value.Size = new Size(203, 23);
+            Home_Value.TabIndex = 10;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(6, 125);
+            label8.Name = "label8";
+            label8.Size = new Size(35, 15);
+            label8.TabIndex = 9;
+            label8.Text = "Work";
+            // 
+            // Work_Value
+            // 
+            Work_Value.Location = new Point(140, 122);
+            Work_Value.Name = "Work_Value";
+            Work_Value.Size = new Size(203, 23);
+            Work_Value.TabIndex = 8;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 96);
+            label7.Name = "label7";
+            label7.Size = new Size(44, 15);
+            label7.TabIndex = 7;
+            label7.Text = "Mobile";
+            // 
+            // Mobile_Value
+            // 
+            Mobile_Value.Location = new Point(140, 93);
+            Mobile_Value.Name = "Mobile_Value";
+            Mobile_Value.Size = new Size(203, 23);
+            Mobile_Value.TabIndex = 6;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 67);
+            label6.Name = "label6";
+            label6.Size = new Size(49, 15);
+            label6.TabIndex = 5;
+            label6.Text = "Address";
+            // 
+            // Address_Value
+            // 
+            Address_Value.Location = new Point(140, 64);
+            Address_Value.Name = "Address_Value";
+            Address_Value.Size = new Size(203, 23);
+            Address_Value.TabIndex = 4;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 38);
+            label5.Name = "label5";
+            label5.Size = new Size(61, 15);
+            label5.TabIndex = 3;
+            label5.Text = "Full Name";
+            // 
+            // FullName_Value
+            // 
+            FullName_Value.Location = new Point(140, 35);
+            FullName_Value.Name = "FullName_Value";
+            FullName_Value.Size = new Size(203, 23);
+            FullName_Value.TabIndex = 2;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(53, 15);
+            label4.TabIndex = 1;
+            label4.Text = "OwnerID";
+            // 
+            // OwnerID_Value
+            // 
+            OwnerID_Value.Location = new Point(140, 6);
+            OwnerID_Value.Name = "OwnerID_Value";
+            OwnerID_Value.Size = new Size(203, 23);
+            OwnerID_Value.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -156,12 +487,12 @@
             // tabPage3
             // 
             tabPage3.Controls.Add(label3);
-            tabPage3.Controls.Add(checkBox1);
-            tabPage3.Controls.Add(textBox2);
+            tabPage3.Controls.Add(Reminder_Value);
+            tabPage3.Controls.Add(Notes_Value);
             tabPage3.Controls.Add(label2);
-            tabPage3.Controls.Add(textBox1);
+            tabPage3.Controls.Add(ContactDate_Value);
             tabPage3.Controls.Add(label1);
-            tabPage3.Controls.Add(comboBox1);
+            tabPage3.Controls.Add(ContactType_Value);
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
@@ -169,57 +500,6 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Contact History";
             tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(88, 6);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(302, 23);
-            comboBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(6, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(76, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Contact Type";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(88, 35);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(302, 23);
-            textBox1.TabIndex = 2;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(6, 38);
-            label2.Name = "label2";
-            label2.Size = new Size(76, 15);
-            label2.TabIndex = 3;
-            label2.Text = "Contact Date";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(88, 64);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(758, 154);
-            textBox2.TabIndex = 4;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(88, 270);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(82, 19);
-            checkBox1.TabIndex = 5;
-            checkBox1.Text = "Reminder?";
-            checkBox1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -230,339 +510,84 @@
             label3.TabIndex = 6;
             label3.Text = "Notes";
             // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(140, 6);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(203, 23);
-            textBox3.TabIndex = 0;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 9);
-            label4.Name = "label4";
-            label4.Size = new Size(53, 15);
-            label4.TabIndex = 1;
-            label4.Text = "OwnerID";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(140, 35);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(203, 23);
-            textBox4.TabIndex = 2;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(6, 38);
-            label5.Name = "label5";
-            label5.Size = new Size(61, 15);
-            label5.TabIndex = 3;
-            label5.Text = "Full Name";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(140, 64);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(203, 23);
-            textBox5.TabIndex = 4;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(6, 67);
-            label6.Name = "label6";
-            label6.Size = new Size(49, 15);
-            label6.TabIndex = 5;
-            label6.Text = "Address";
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(140, 93);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(203, 23);
-            textBox6.TabIndex = 6;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(6, 96);
-            label7.Name = "label7";
-            label7.Size = new Size(44, 15);
-            label7.TabIndex = 7;
-            label7.Text = "Mobile";
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(140, 122);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(203, 23);
-            textBox7.TabIndex = 8;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(6, 125);
-            label8.Name = "label8";
-            label8.Size = new Size(35, 15);
-            label8.TabIndex = 9;
-            label8.Text = "Work";
-            // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(140, 151);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(203, 23);
-            textBox8.TabIndex = 10;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(6, 154);
-            label9.Name = "label9";
-            label9.Size = new Size(40, 15);
-            label9.TabIndex = 11;
-            label9.Text = "Home";
-            // 
-            // textBox9
-            // 
-            textBox9.Location = new Point(140, 180);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(203, 23);
-            textBox9.TabIndex = 12;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(6, 183);
-            label10.Name = "label10";
-            label10.Size = new Size(73, 15);
-            label10.TabIndex = 13;
-            label10.Text = "Tenure Code";
-            // 
-            // textBox10
-            // 
-            textBox10.Location = new Point(140, 209);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(203, 23);
-            textBox10.TabIndex = 14;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(6, 212);
-            label11.Name = "label11";
-            label11.Size = new Size(77, 15);
-            label11.TabIndex = 15;
-            label11.Text = "General Class";
-            // 
-            // textBox11
-            // 
-            textBox11.Location = new Point(140, 238);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(203, 23);
-            textBox11.TabIndex = 16;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(6, 241);
-            label12.Name = "label12";
-            label12.Size = new Size(88, 15);
-            label12.TabIndex = 17;
-            label12.Text = "Default Bank ID";
-            // 
-            // textBox12
-            // 
-            textBox12.Location = new Point(140, 267);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(203, 23);
-            textBox12.TabIndex = 18;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(6, 270);
-            label13.Name = "label13";
-            label13.Size = new Size(128, 15);
-            label13.TabIndex = 19;
-            label13.Text = "Bank Account Number";
-            // 
-            // textBox13
-            // 
-            textBox13.Location = new Point(490, 9);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(203, 23);
-            textBox13.TabIndex = 20;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(415, 12);
-            label14.Name = "label14";
-            label14.Size = new Size(69, 15);
-            label14.TabIndex = 21;
-            label14.Text = "Alternate ID";
-            // 
-            // textBox14
-            // 
-            textBox14.Location = new Point(490, 38);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(203, 23);
-            textBox14.TabIndex = 22;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Location = new Point(446, 41);
-            label15.Name = "label15";
-            label15.Size = new Size(38, 15);
-            label15.TabIndex = 23;
-            label15.Text = "Tax ID";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(419, 70);
-            label16.Name = "label16";
-            label16.Size = new Size(65, 15);
-            label16.TabIndex = 25;
-            label16.Text = "Tax ID Type";
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(490, 67);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(203, 23);
-            comboBox2.TabIndex = 26;
-            // 
-            // textBox15
-            // 
-            textBox15.Location = new Point(490, 96);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(203, 23);
-            textBox15.TabIndex = 27;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(448, 99);
-            label17.Name = "label17";
-            label17.Size = new Size(36, 15);
-            label17.TabIndex = 28;
-            label17.Text = "Email";
-            // 
-            // textBox16
-            // 
-            textBox16.Location = new Point(490, 125);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(203, 23);
-            textBox16.TabIndex = 29;
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(424, 128);
-            label18.Name = "label18";
-            label18.Size = new Size(60, 15);
-            label18.TabIndex = 30;
-            label18.Text = "Web Page";
-            // 
-            // comboBox3
-            // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(490, 154);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(203, 23);
-            comboBox3.TabIndex = 31;
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(396, 159);
-            label19.Name = "label19";
-            label19.Size = new Size(88, 15);
-            label19.TabIndex = 32;
-            label19.Text = "\"No-Pay\" Code";
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(699, 6);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(64, 19);
-            checkBox2.TabIndex = 33;
-            checkBox2.Text = "Active?";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(699, 31);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(84, 19);
-            checkBox3.TabIndex = 34;
-            checkBox3.Text = "Send 1099?";
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(699, 56);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(147, 19);
-            checkBox4.TabIndex = 35;
-            checkBox4.Text = "Severance Tax Exempt?";
-            checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(699, 81);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(117, 19);
-            checkBox5.TabIndex = 36;
-            checkBox5.Text = "Expense Exempt?";
-            checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            checkBox6.AutoSize = true;
-            checkBox6.Location = new Point(699, 106);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(114, 19);
-            checkBox6.TabIndex = 37;
-            checkBox6.Text = "\"Other\" Exempt?";
-            checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            checkBox7.AutoSize = true;
-            checkBox7.Location = new Point(699, 131);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(131, 19);
-            checkBox7.TabIndex = 38;
-            checkBox7.Text = "Federa Tax Withold?";
-            checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(699, 156);
-            checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(116, 19);
-            checkBox8.TabIndex = 39;
-            checkBox8.Text = "In House Owner?";
-            checkBox8.UseVisualStyleBackColor = true;
+            // Reminder_Value
+            // 
+            Reminder_Value.AutoSize = true;
+            Reminder_Value.Location = new Point(88, 270);
+            Reminder_Value.Name = "Reminder_Value";
+            Reminder_Value.Size = new Size(82, 19);
+            Reminder_Value.TabIndex = 5;
+            Reminder_Value.Text = "Reminder?";
+            Reminder_Value.UseVisualStyleBackColor = true;
+            // 
+            // Notes_Value
+            // 
+            Notes_Value.Location = new Point(88, 64);
+            Notes_Value.Multiline = true;
+            Notes_Value.Name = "Notes_Value";
+            Notes_Value.Size = new Size(758, 154);
+            Notes_Value.TabIndex = 4;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(6, 38);
+            label2.Name = "label2";
+            label2.Size = new Size(76, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Contact Date";
+            // 
+            // ContactDate_Value
+            // 
+            ContactDate_Value.Location = new Point(88, 35);
+            ContactDate_Value.Name = "ContactDate_Value";
+            ContactDate_Value.Size = new Size(302, 23);
+            ContactDate_Value.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(6, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(77, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Contact Type";
+            // 
+            // ContactType_Value
+            // 
+            ContactType_Value.FormattingEnabled = true;
+            ContactType_Value.Location = new Point(88, 6);
+            ContactType_Value.Name = "ContactType_Value";
+            ContactType_Value.Size = new Size(302, 23);
+            ContactType_Value.TabIndex = 0;
+            // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 9;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 10;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
             // 
             // Contacts
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(tabControl1);
             Name = "Contacts";
             Text = "Contacts";
@@ -581,50 +606,52 @@
         private TabPage tabPage2;
         private TabPage tabPage3;
         private Label label3;
-        private CheckBox checkBox1;
-        private TextBox textBox2;
+        private CheckBox Reminder_Value;
+        private TextBox Notes_Value;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox ContactDate_Value;
         private Label label1;
-        private ComboBox comboBox1;
-        private TextBox textBox7;
+        private ComboBox ContactType_Value;
+        private TextBox Work_Value;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox Mobile_Value;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox Address_Value;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox FullName_Value;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox OwnerID_Value;
         private Label label12;
-        private TextBox textBox11;
+        private TextBox DefaultBankID_Value;
         private Label label11;
-        private TextBox textBox10;
+        private TextBox GeneralClass_Value;
         private Label label10;
-        private TextBox textBox9;
+        private TextBox TenureCode_Value;
         private Label label9;
-        private TextBox textBox8;
+        private TextBox Home_Value;
         private Label label8;
         private Label label17;
-        private TextBox textBox15;
-        private ComboBox comboBox2;
+        private TextBox Email_Value;
+        private ComboBox TaxIDType_Value;
         private Label label16;
         private Label label15;
-        private TextBox textBox14;
+        private TextBox TaxID_Value;
         private Label label14;
-        private TextBox textBox13;
+        private TextBox AlternateID_Value;
         private Label label13;
-        private TextBox textBox12;
-        private CheckBox checkBox7;
-        private CheckBox checkBox6;
-        private CheckBox checkBox5;
-        private CheckBox checkBox4;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
+        private TextBox BankAccountNumber_Value;
+        private CheckBox FederalTaxWithold_Value;
+        private CheckBox OtherExempt_Value;
+        private CheckBox ExpenseExempt_Value;
+        private CheckBox SeveranceTaxExempt_Value;
+        private CheckBox Send1099_Value;
+        private CheckBox Active_Value;
         private Label label19;
-        private ComboBox comboBox3;
+        private ComboBox NoPayCode_Value;
         private Label label18;
-        private TextBox textBox16;
-        private CheckBox checkBox8;
+        private TextBox WebPage_Value;
+        private CheckBox InHouseOwner_Value;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

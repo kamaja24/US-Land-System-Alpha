@@ -94,7 +94,7 @@
             ExpirationDate_Label.AutoSize = true;
             ExpirationDate_Label.Location = new Point(6, 67);
             ExpirationDate_Label.Name = "ExpirationDate_Label";
-            ExpirationDate_Label.Size = new Size(87, 15);
+            ExpirationDate_Label.Size = new Size(86, 15);
             ExpirationDate_Label.TabIndex = 5;
             ExpirationDate_Label.Text = "Expiration Date";
             // 
@@ -127,6 +127,7 @@
             PPI_Value.Name = "PPI_Value";
             PPI_Value.Size = new Size(318, 23);
             PPI_Value.TabIndex = 1;
+            PPI_Value.TextChanged += PPI_Value_TextChanged;
             // 
             // PPIID_Label
             // 

@@ -30,41 +30,43 @@
         {
             tabControl1 = new TabControl();
             tabPage5 = new TabPage();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            textBox2 = new TextBox();
+            Active_Value = new CheckBox();
             label2 = new Label();
-            checkBox1 = new CheckBox();
+            Acreage_Value = new TextBox();
+            label1 = new Label();
+            IDNumber_Value = new TextBox();
             tabPage6 = new TabPage();
-            tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            textBox5 = new TextBox();
-            label5 = new Label();
-            textBox6 = new TextBox();
             label6 = new Label();
-            textBox7 = new TextBox();
-            label7 = new Label();
-            textBox8 = new TextBox();
-            label8 = new Label();
-            textBox9 = new TextBox();
-            label9 = new Label();
-            textBox10 = new TextBox();
-            label10 = new Label();
-            textBox11 = new TextBox();
-            label11 = new Label();
-            textBox12 = new TextBox();
+            SurveyAbstractLotNumber_Value = new TextBox();
+            label5 = new Label();
+            Block_Value = new TextBox();
+            label4 = new Label();
+            Abstract_Value = new TextBox();
+            label3 = new Label();
+            SurveyName_Value = new TextBox();
+            tabPage1 = new TabPage();
             label12 = new Label();
-            textBox13 = new TextBox();
+            Meridian_Value = new TextBox();
+            label11 = new Label();
+            TRSLotNumber_Value = new TextBox();
+            label10 = new Label();
+            TRSTownshipName_Value = new TextBox();
+            label9 = new Label();
+            Section_Value = new TextBox();
+            label8 = new Label();
+            Range_Value = new TextBox();
+            label7 = new Label();
+            Town_Value = new TextBox();
+            tabPage2 = new TabPage();
             label13 = new Label();
-            textBox14 = new TextBox();
-            label14 = new Label();
-            textBox15 = new TextBox();
+            OffshoreBlock_Value = new TextBox();
+            tabPage3 = new TabPage();
             label15 = new Label();
+            ParcelName_Value = new TextBox();
+            label14 = new Label();
+            ParcelTownshipName_Value = new TextBox();
+            BackButton = new Button();
+            SaveButton = new Button();
             tabControl1.SuspendLayout();
             tabPage5.SuspendLayout();
             tabPage6.SuspendLayout();
@@ -88,11 +90,11 @@
             // 
             // tabPage5
             // 
-            tabPage5.Controls.Add(checkBox1);
+            tabPage5.Controls.Add(Active_Value);
             tabPage5.Controls.Add(label2);
-            tabPage5.Controls.Add(textBox2);
+            tabPage5.Controls.Add(Acreage_Value);
             tabPage5.Controls.Add(label1);
-            tabPage5.Controls.Add(textBox1);
+            tabPage5.Controls.Add(IDNumber_Value);
             tabPage5.Location = new Point(4, 24);
             tabPage5.Name = "tabPage5";
             tabPage5.Padding = new Padding(3);
@@ -101,28 +103,15 @@
             tabPage5.Text = "Home";
             tabPage5.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Active_Value
             // 
-            textBox1.Location = new Point(77, 6);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(221, 23);
-            textBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(6, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(65, 15);
-            label1.TabIndex = 1;
-            label1.Text = "ID Number";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(77, 96);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(221, 23);
-            textBox2.TabIndex = 2;
+            Active_Value.AutoSize = true;
+            Active_Value.Location = new Point(6, 319);
+            Active_Value.Name = "Active_Value";
+            Active_Value.Size = new Size(64, 19);
+            Active_Value.TabIndex = 4;
+            Active_Value.Text = "Active?";
+            Active_Value.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -133,26 +122,39 @@
             label2.TabIndex = 3;
             label2.Text = "Acreage";
             // 
-            // checkBox1
+            // Acreage_Value
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(6, 319);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(64, 19);
-            checkBox1.TabIndex = 4;
-            checkBox1.Text = "Active?";
-            checkBox1.UseVisualStyleBackColor = true;
+            Acreage_Value.Location = new Point(77, 96);
+            Acreage_Value.Name = "Acreage_Value";
+            Acreage_Value.Size = new Size(221, 23);
+            Acreage_Value.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(6, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(65, 15);
+            label1.TabIndex = 1;
+            label1.Text = "ID Number";
+            // 
+            // IDNumber_Value
+            // 
+            IDNumber_Value.Location = new Point(77, 6);
+            IDNumber_Value.Name = "IDNumber_Value";
+            IDNumber_Value.Size = new Size(221, 23);
+            IDNumber_Value.TabIndex = 0;
             // 
             // tabPage6
             // 
             tabPage6.Controls.Add(label6);
-            tabPage6.Controls.Add(textBox6);
+            tabPage6.Controls.Add(SurveyAbstractLotNumber_Value);
             tabPage6.Controls.Add(label5);
-            tabPage6.Controls.Add(textBox5);
+            tabPage6.Controls.Add(Block_Value);
             tabPage6.Controls.Add(label4);
-            tabPage6.Controls.Add(textBox4);
+            tabPage6.Controls.Add(Abstract_Value);
             tabPage6.Controls.Add(label3);
-            tabPage6.Controls.Add(textBox3);
+            tabPage6.Controls.Add(SurveyName_Value);
             tabPage6.Location = new Point(4, 24);
             tabPage6.Name = "tabPage6";
             tabPage6.Padding = new Padding(3);
@@ -160,109 +162,6 @@
             tabPage6.TabIndex = 5;
             tabPage6.Text = "Survey/Abstract";
             tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage1
-            // 
-            tabPage1.Controls.Add(label12);
-            tabPage1.Controls.Add(textBox12);
-            tabPage1.Controls.Add(label11);
-            tabPage1.Controls.Add(textBox11);
-            tabPage1.Controls.Add(label10);
-            tabPage1.Controls.Add(textBox10);
-            tabPage1.Controls.Add(label9);
-            tabPage1.Controls.Add(textBox9);
-            tabPage1.Controls.Add(label8);
-            tabPage1.Controls.Add(textBox8);
-            tabPage1.Controls.Add(label7);
-            tabPage1.Controls.Add(textBox7);
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(852, 344);
-            tabPage1.TabIndex = 6;
-            tabPage1.Text = "TRS";
-            tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            tabPage2.Controls.Add(label13);
-            tabPage2.Controls.Add(textBox13);
-            tabPage2.Location = new Point(4, 24);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(852, 344);
-            tabPage2.TabIndex = 7;
-            tabPage2.Text = "Offshore";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            tabPage3.Controls.Add(label15);
-            tabPage3.Controls.Add(textBox15);
-            tabPage3.Controls.Add(label14);
-            tabPage3.Controls.Add(textBox14);
-            tabPage3.Location = new Point(4, 24);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(852, 344);
-            tabPage3.TabIndex = 8;
-            tabPage3.Text = "Parcel";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(89, 6);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(221, 23);
-            textBox3.TabIndex = 1;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(6, 9);
-            label3.Name = "label3";
-            label3.Size = new Size(77, 15);
-            label3.TabIndex = 2;
-            label3.Text = "Survey Name";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(89, 81);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(221, 23);
-            textBox4.TabIndex = 3;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 84);
-            label4.Name = "label4";
-            label4.Size = new Size(51, 15);
-            label4.TabIndex = 4;
-            label4.Text = "Abstract";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(89, 163);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(221, 23);
-            textBox5.TabIndex = 5;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(6, 166);
-            label5.Name = "label5";
-            label5.Size = new Size(36, 15);
-            label5.TabIndex = 6;
-            label5.Text = "Block";
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(89, 254);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(221, 23);
-            textBox6.TabIndex = 7;
             // 
             // label6
             // 
@@ -273,92 +172,82 @@
             label6.TabIndex = 8;
             label6.Text = "Lot Number";
             // 
-            // textBox7
+            // SurveyAbstractLotNumber_Value
             // 
-            textBox7.Location = new Point(105, 6);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(196, 23);
-            textBox7.TabIndex = 2;
+            SurveyAbstractLotNumber_Value.Location = new Point(89, 254);
+            SurveyAbstractLotNumber_Value.Name = "SurveyAbstractLotNumber_Value";
+            SurveyAbstractLotNumber_Value.Size = new Size(221, 23);
+            SurveyAbstractLotNumber_Value.TabIndex = 7;
             // 
-            // label7
+            // label5
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(6, 9);
-            label7.Name = "label7";
-            label7.Size = new Size(36, 15);
-            label7.TabIndex = 3;
-            label7.Text = "Town";
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 166);
+            label5.Name = "label5";
+            label5.Size = new Size(36, 15);
+            label5.TabIndex = 6;
+            label5.Text = "Block";
             // 
-            // textBox8
+            // Block_Value
             // 
-            textBox8.Location = new Point(385, 6);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(175, 23);
-            textBox8.TabIndex = 4;
+            Block_Value.Location = new Point(89, 163);
+            Block_Value.Name = "Block_Value";
+            Block_Value.Size = new Size(221, 23);
+            Block_Value.TabIndex = 5;
             // 
-            // label8
+            // label4
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(339, 9);
-            label8.Name = "label8";
-            label8.Size = new Size(40, 15);
-            label8.TabIndex = 5;
-            label8.Text = "Range";
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 84);
+            label4.Name = "label4";
+            label4.Size = new Size(51, 15);
+            label4.TabIndex = 4;
+            label4.Text = "Abstract";
             // 
-            // textBox9
+            // Abstract_Value
             // 
-            textBox9.Location = new Point(665, 6);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(184, 23);
-            textBox9.TabIndex = 6;
+            Abstract_Value.Location = new Point(89, 81);
+            Abstract_Value.Name = "Abstract_Value";
+            Abstract_Value.Size = new Size(221, 23);
+            Abstract_Value.TabIndex = 3;
             // 
-            // label9
+            // label3
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(613, 9);
-            label9.Name = "label9";
-            label9.Size = new Size(46, 15);
-            label9.TabIndex = 7;
-            label9.Text = "Section";
+            label3.AutoSize = true;
+            label3.Location = new Point(6, 9);
+            label3.Name = "label3";
+            label3.Size = new Size(77, 15);
+            label3.TabIndex = 2;
+            label3.Text = "Survey Name";
             // 
-            // textBox10
+            // SurveyName_Value
             // 
-            textBox10.Location = new Point(105, 89);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(196, 23);
-            textBox10.TabIndex = 8;
+            SurveyName_Value.Location = new Point(89, 6);
+            SurveyName_Value.Name = "SurveyName_Value";
+            SurveyName_Value.Size = new Size(221, 23);
+            SurveyName_Value.TabIndex = 1;
             // 
-            // label10
+            // tabPage1
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(6, 92);
-            label10.Name = "label10";
-            label10.Size = new Size(93, 15);
-            label10.TabIndex = 9;
-            label10.Text = "Township Name";
-            // 
-            // textBox11
-            // 
-            textBox11.Location = new Point(105, 184);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(196, 23);
-            textBox11.TabIndex = 10;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(6, 187);
-            label11.Name = "label11";
-            label11.Size = new Size(71, 15);
-            label11.TabIndex = 11;
-            label11.Text = "Lot Number";
-            // 
-            // textBox12
-            // 
-            textBox12.Location = new Point(105, 287);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(196, 23);
-            textBox12.TabIndex = 12;
+            tabPage1.Controls.Add(label12);
+            tabPage1.Controls.Add(Meridian_Value);
+            tabPage1.Controls.Add(label11);
+            tabPage1.Controls.Add(TRSLotNumber_Value);
+            tabPage1.Controls.Add(label10);
+            tabPage1.Controls.Add(TRSTownshipName_Value);
+            tabPage1.Controls.Add(label9);
+            tabPage1.Controls.Add(Section_Value);
+            tabPage1.Controls.Add(label8);
+            tabPage1.Controls.Add(Range_Value);
+            tabPage1.Controls.Add(label7);
+            tabPage1.Controls.Add(Town_Value);
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(852, 344);
+            tabPage1.TabIndex = 6;
+            tabPage1.Text = "TRS";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -369,12 +258,104 @@
             label12.TabIndex = 13;
             label12.Text = "Meridian";
             // 
-            // textBox13
+            // Meridian_Value
             // 
-            textBox13.Location = new Point(97, 6);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(196, 23);
-            textBox13.TabIndex = 3;
+            Meridian_Value.Location = new Point(105, 287);
+            Meridian_Value.Name = "Meridian_Value";
+            Meridian_Value.Size = new Size(196, 23);
+            Meridian_Value.TabIndex = 12;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(6, 187);
+            label11.Name = "label11";
+            label11.Size = new Size(71, 15);
+            label11.TabIndex = 11;
+            label11.Text = "Lot Number";
+            // 
+            // TRSLotNumber_Value
+            // 
+            TRSLotNumber_Value.Location = new Point(105, 184);
+            TRSLotNumber_Value.Name = "TRSLotNumber_Value";
+            TRSLotNumber_Value.Size = new Size(196, 23);
+            TRSLotNumber_Value.TabIndex = 10;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(6, 92);
+            label10.Name = "label10";
+            label10.Size = new Size(93, 15);
+            label10.TabIndex = 9;
+            label10.Text = "Township Name";
+            // 
+            // TRSTownshipName_Value
+            // 
+            TRSTownshipName_Value.Location = new Point(105, 89);
+            TRSTownshipName_Value.Name = "TRSTownshipName_Value";
+            TRSTownshipName_Value.Size = new Size(196, 23);
+            TRSTownshipName_Value.TabIndex = 8;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(613, 9);
+            label9.Name = "label9";
+            label9.Size = new Size(46, 15);
+            label9.TabIndex = 7;
+            label9.Text = "Section";
+            // 
+            // Section_Value
+            // 
+            Section_Value.Location = new Point(665, 6);
+            Section_Value.Name = "Section_Value";
+            Section_Value.Size = new Size(184, 23);
+            Section_Value.TabIndex = 6;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(339, 9);
+            label8.Name = "label8";
+            label8.Size = new Size(40, 15);
+            label8.TabIndex = 5;
+            label8.Text = "Range";
+            // 
+            // Range_Value
+            // 
+            Range_Value.Location = new Point(385, 6);
+            Range_Value.Name = "Range_Value";
+            Range_Value.Size = new Size(175, 23);
+            Range_Value.TabIndex = 4;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 9);
+            label7.Name = "label7";
+            label7.Size = new Size(36, 15);
+            label7.TabIndex = 3;
+            label7.Text = "Town";
+            // 
+            // Town_Value
+            // 
+            Town_Value.Location = new Point(105, 6);
+            Town_Value.Name = "Town_Value";
+            Town_Value.Size = new Size(196, 23);
+            Town_Value.TabIndex = 2;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Controls.Add(label13);
+            tabPage2.Controls.Add(OffshoreBlock_Value);
+            tabPage2.Location = new Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(852, 344);
+            tabPage2.TabIndex = 7;
+            tabPage2.Text = "Offshore";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -385,28 +366,26 @@
             label13.TabIndex = 4;
             label13.Text = "Offshore Block";
             // 
-            // textBox14
+            // OffshoreBlock_Value
             // 
-            textBox14.Location = new Point(105, 6);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(217, 23);
-            textBox14.TabIndex = 3;
+            OffshoreBlock_Value.Location = new Point(97, 6);
+            OffshoreBlock_Value.Name = "OffshoreBlock_Value";
+            OffshoreBlock_Value.Size = new Size(196, 23);
+            OffshoreBlock_Value.TabIndex = 3;
             // 
-            // label14
+            // tabPage3
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(6, 9);
-            label14.Name = "label14";
-            label14.Size = new Size(93, 15);
-            label14.TabIndex = 4;
-            label14.Text = "Township Name";
-            // 
-            // textBox15
-            // 
-            textBox15.Location = new Point(105, 142);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(217, 23);
-            textBox15.TabIndex = 5;
+            tabPage3.Controls.Add(label15);
+            tabPage3.Controls.Add(ParcelName_Value);
+            tabPage3.Controls.Add(label14);
+            tabPage3.Controls.Add(ParcelTownshipName_Value);
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(852, 344);
+            tabPage3.TabIndex = 8;
+            tabPage3.Text = "Parcel";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
@@ -417,11 +396,56 @@
             label15.TabIndex = 6;
             label15.Text = "Parcel Name";
             // 
+            // ParcelName_Value
+            // 
+            ParcelName_Value.Location = new Point(105, 142);
+            ParcelName_Value.Name = "ParcelName_Value";
+            ParcelName_Value.Size = new Size(217, 23);
+            ParcelName_Value.TabIndex = 5;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(6, 9);
+            label14.Name = "label14";
+            label14.Size = new Size(93, 15);
+            label14.TabIndex = 4;
+            label14.Text = "Township Name";
+            // 
+            // ParcelTownshipName_Value
+            // 
+            ParcelTownshipName_Value.Location = new Point(105, 6);
+            ParcelTownshipName_Value.Name = "ParcelTownshipName_Value";
+            ParcelTownshipName_Value.Size = new Size(217, 23);
+            ParcelTownshipName_Value.TabIndex = 3;
+            // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 11;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 12;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
+            // 
             // Land_Identifier
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(tabControl1);
             Name = "Land_Identifier";
             Text = "Land_Identifier";
@@ -443,40 +467,42 @@
 
         private TabControl tabControl1;
         private TabPage tabPage5;
-        private CheckBox checkBox1;
+        private CheckBox Active_Value;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox Acreage_Value;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox IDNumber_Value;
         private TabPage tabPage6;
         private Label label6;
-        private TextBox textBox6;
+        private TextBox SurveyAbstractLotNumber_Value;
         private Label label5;
-        private TextBox textBox5;
+        private TextBox Block_Value;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox Abstract_Value;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox SurveyName_Value;
         private TabPage tabPage1;
         private TabPage tabPage2;
         private TabPage tabPage3;
         private Label label12;
-        private TextBox textBox12;
+        private TextBox Meridian_Value;
         private Label label11;
-        private TextBox textBox11;
+        private TextBox TRSLotNumber_Value;
         private Label label10;
-        private TextBox textBox10;
+        private TextBox TRSTownshipName_Value;
         private Label label9;
-        private TextBox textBox9;
+        private TextBox Section_Value;
         private Label label8;
-        private TextBox textBox8;
+        private TextBox Range_Value;
         private Label label7;
-        private TextBox textBox7;
+        private TextBox Town_Value;
         private Label label13;
-        private TextBox textBox13;
+        private TextBox OffshoreBlock_Value;
         private Label label15;
-        private TextBox textBox15;
+        private TextBox ParcelName_Value;
         private Label label14;
-        private TextBox textBox14;
+        private TextBox ParcelTownshipName_Value;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

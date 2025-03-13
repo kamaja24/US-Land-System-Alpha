@@ -28,65 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            YearMonth_Value = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
+            DueMonth_Value = new TextBox();
             label2 = new Label();
-            comboBox1 = new ComboBox();
+            PayableIn_Value = new ComboBox();
             label3 = new Label();
-            checkBox1 = new CheckBox();
-            textBox3 = new TextBox();
+            OKToPay_Value = new CheckBox();
+            AccountPeriod_Value = new TextBox();
             label4 = new Label();
-            textBox4 = new TextBox();
+            LeaseID_Value = new TextBox();
             label5 = new Label();
-            textBox5 = new TextBox();
+            TractID_Value = new TextBox();
             label6 = new Label();
-            textBox6 = new TextBox();
+            SubtractID_Value = new TextBox();
             label7 = new Label();
-            textBox7 = new TextBox();
+            MineID_Value = new TextBox();
             label8 = new Label();
-            textBox8 = new TextBox();
+            MiningMethod_Value = new TextBox();
             label9 = new Label();
-            textBox9 = new TextBox();
+            ShippingFrom_Value = new TextBox();
             label10 = new Label();
-            textBox10 = new TextBox();
+            PayeeID_Value = new TextBox();
             label11 = new Label();
-            textBox11 = new TextBox();
+            DepartmentBankID_Value = new TextBox();
             label12 = new Label();
-            textBox12 = new TextBox();
+            BankAccountNumber_Value = new TextBox();
             label13 = new Label();
-            textBox13 = new TextBox();
+            SuspenseNumber_Value = new TextBox();
             label14 = new Label();
-            textBox14 = new TextBox();
+            Tonnage_Value = new TextBox();
             label15 = new Label();
-            textBox15 = new TextBox();
+            PricePerTon_Value = new TextBox();
             label16 = new Label();
-            textBox16 = new TextBox();
+            RoyaltyRate_Value = new TextBox();
             label17 = new Label();
-            textBox17 = new TextBox();
+            MineralInterest_Value = new TextBox();
             label18 = new Label();
-            textBox18 = new TextBox();
+            GrossAmountDue_Value = new TextBox();
             label19 = new Label();
             groupBox1 = new GroupBox();
-            label20 = new Label();
-            textBox19 = new TextBox();
-            label21 = new Label();
-            textBox20 = new TextBox();
-            label22 = new Label();
-            textBox21 = new TextBox();
-            label23 = new Label();
-            textBox22 = new TextBox();
             label24 = new Label();
-            textBox23 = new TextBox();
+            RecoupAmount_Value = new TextBox();
+            label23 = new Label();
+            MarketingCosts_Value = new TextBox();
+            label22 = new Label();
+            RecoupRate_Value = new TextBox();
+            label21 = new Label();
+            OtherTax_Value = new TextBox();
+            label20 = new Label();
+            SeveranceTax_Value = new TextBox();
+            BackButton = new Button();
+            SaveButton = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // textBox1
+            // YearMonth_Value
             // 
-            textBox1.Location = new Point(107, 77);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            YearMonth_Value.Location = new Point(107, 77);
+            YearMonth_Value.Name = "YearMonth_Value";
+            YearMonth_Value.Size = new Size(100, 23);
+            YearMonth_Value.TabIndex = 0;
             // 
             // label1
             // 
@@ -97,12 +99,12 @@
             label1.TabIndex = 1;
             label1.Text = "Year/Month";
             // 
-            // textBox2
+            // DueMonth_Value
             // 
-            textBox2.Location = new Point(324, 77);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
+            DueMonth_Value.Location = new Point(324, 77);
+            DueMonth_Value.Name = "DueMonth_Value";
+            DueMonth_Value.Size = new Size(100, 23);
+            DueMonth_Value.TabIndex = 2;
             // 
             // label2
             // 
@@ -113,13 +115,13 @@
             label2.TabIndex = 3;
             label2.Text = "Due Month";
             // 
-            // comboBox1
+            // PayableIn_Value
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(570, 77);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 4;
+            PayableIn_Value.FormattingEnabled = true;
+            PayableIn_Value.Location = new Point(570, 77);
+            PayableIn_Value.Name = "PayableIn_Value";
+            PayableIn_Value.Size = new Size(121, 23);
+            PayableIn_Value.TabIndex = 4;
             // 
             // label3
             // 
@@ -130,22 +132,22 @@
             label3.TabIndex = 5;
             label3.Text = "Payable In";
             // 
-            // checkBox1
+            // OKToPay_Value
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(789, 79);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(83, 19);
-            checkBox1.TabIndex = 6;
-            checkBox1.Text = "OK to Pay?";
-            checkBox1.UseVisualStyleBackColor = true;
+            OKToPay_Value.AutoSize = true;
+            OKToPay_Value.Location = new Point(789, 79);
+            OKToPay_Value.Name = "OKToPay_Value";
+            OKToPay_Value.Size = new Size(83, 19);
+            OKToPay_Value.TabIndex = 6;
+            OKToPay_Value.Text = "OK to Pay?";
+            OKToPay_Value.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // AccountPeriod_Value
             // 
-            textBox3.Location = new Point(107, 106);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 7;
+            AccountPeriod_Value.Location = new Point(107, 106);
+            AccountPeriod_Value.Name = "AccountPeriod_Value";
+            AccountPeriod_Value.Size = new Size(100, 23);
+            AccountPeriod_Value.TabIndex = 7;
             // 
             // label4
             // 
@@ -156,12 +158,12 @@
             label4.TabIndex = 8;
             label4.Text = "Account Period";
             // 
-            // textBox4
+            // LeaseID_Value
             // 
-            textBox4.Location = new Point(146, 135);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(172, 23);
-            textBox4.TabIndex = 9;
+            LeaseID_Value.Location = new Point(146, 135);
+            LeaseID_Value.Name = "LeaseID_Value";
+            LeaseID_Value.Size = new Size(172, 23);
+            LeaseID_Value.TabIndex = 9;
             // 
             // label5
             // 
@@ -172,12 +174,12 @@
             label5.TabIndex = 10;
             label5.Text = "Lease ID";
             // 
-            // textBox5
+            // TractID_Value
             // 
-            textBox5.Location = new Point(146, 164);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(172, 23);
-            textBox5.TabIndex = 11;
+            TractID_Value.Location = new Point(146, 164);
+            TractID_Value.Name = "TractID_Value";
+            TractID_Value.Size = new Size(172, 23);
+            TractID_Value.TabIndex = 11;
             // 
             // label6
             // 
@@ -188,12 +190,12 @@
             label6.TabIndex = 12;
             label6.Text = "Tract ID";
             // 
-            // textBox6
+            // SubtractID_Value
             // 
-            textBox6.Location = new Point(146, 193);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(172, 23);
-            textBox6.TabIndex = 13;
+            SubtractID_Value.Location = new Point(146, 193);
+            SubtractID_Value.Name = "SubtractID_Value";
+            SubtractID_Value.Size = new Size(172, 23);
+            SubtractID_Value.TabIndex = 13;
             // 
             // label7
             // 
@@ -204,12 +206,12 @@
             label7.TabIndex = 14;
             label7.Text = "Subtract ID";
             // 
-            // textBox7
+            // MineID_Value
             // 
-            textBox7.Location = new Point(146, 222);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(172, 23);
-            textBox7.TabIndex = 15;
+            MineID_Value.Location = new Point(146, 222);
+            MineID_Value.Name = "MineID_Value";
+            MineID_Value.Size = new Size(172, 23);
+            MineID_Value.TabIndex = 15;
             // 
             // label8
             // 
@@ -220,12 +222,12 @@
             label8.TabIndex = 16;
             label8.Text = "Mine ID";
             // 
-            // textBox8
+            // MiningMethod_Value
             // 
-            textBox8.Location = new Point(146, 251);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(172, 23);
-            textBox8.TabIndex = 17;
+            MiningMethod_Value.Location = new Point(146, 251);
+            MiningMethod_Value.Name = "MiningMethod_Value";
+            MiningMethod_Value.Size = new Size(172, 23);
+            MiningMethod_Value.TabIndex = 17;
             // 
             // label9
             // 
@@ -236,12 +238,12 @@
             label9.TabIndex = 18;
             label9.Text = "Mining Method";
             // 
-            // textBox9
+            // ShippingFrom_Value
             // 
-            textBox9.Location = new Point(146, 280);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(172, 23);
-            textBox9.TabIndex = 19;
+            ShippingFrom_Value.Location = new Point(146, 280);
+            ShippingFrom_Value.Name = "ShippingFrom_Value";
+            ShippingFrom_Value.Size = new Size(172, 23);
+            ShippingFrom_Value.TabIndex = 19;
             // 
             // label10
             // 
@@ -252,12 +254,12 @@
             label10.TabIndex = 20;
             label10.Text = "Shipping From";
             // 
-            // textBox10
+            // PayeeID_Value
             // 
-            textBox10.Location = new Point(146, 309);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(172, 23);
-            textBox10.TabIndex = 21;
+            PayeeID_Value.Location = new Point(146, 309);
+            PayeeID_Value.Name = "PayeeID_Value";
+            PayeeID_Value.Size = new Size(172, 23);
+            PayeeID_Value.TabIndex = 21;
             // 
             // label11
             // 
@@ -268,12 +270,12 @@
             label11.TabIndex = 22;
             label11.Text = "Payee ID";
             // 
-            // textBox11
+            // DepartmentBankID_Value
             // 
-            textBox11.Location = new Point(146, 338);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(172, 23);
-            textBox11.TabIndex = 23;
+            DepartmentBankID_Value.Location = new Point(146, 338);
+            DepartmentBankID_Value.Name = "DepartmentBankID_Value";
+            DepartmentBankID_Value.Size = new Size(172, 23);
+            DepartmentBankID_Value.TabIndex = 23;
             // 
             // label12
             // 
@@ -284,12 +286,12 @@
             label12.TabIndex = 24;
             label12.Text = "Department Bank ID";
             // 
-            // textBox12
+            // BankAccountNumber_Value
             // 
-            textBox12.Location = new Point(146, 367);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(172, 23);
-            textBox12.TabIndex = 25;
+            BankAccountNumber_Value.Location = new Point(146, 367);
+            BankAccountNumber_Value.Name = "BankAccountNumber_Value";
+            BankAccountNumber_Value.Size = new Size(172, 23);
+            BankAccountNumber_Value.TabIndex = 25;
             // 
             // label13
             // 
@@ -300,12 +302,12 @@
             label13.TabIndex = 26;
             label13.Text = "Bank Account Number";
             // 
-            // textBox13
+            // SuspenseNumber_Value
             // 
-            textBox13.Location = new Point(146, 396);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(172, 23);
-            textBox13.TabIndex = 27;
+            SuspenseNumber_Value.Location = new Point(146, 396);
+            SuspenseNumber_Value.Name = "SuspenseNumber_Value";
+            SuspenseNumber_Value.Size = new Size(172, 23);
+            SuspenseNumber_Value.TabIndex = 27;
             // 
             // label14
             // 
@@ -316,12 +318,12 @@
             label14.TabIndex = 28;
             label14.Text = "Suspense Number";
             // 
-            // textBox14
+            // Tonnage_Value
             // 
-            textBox14.Location = new Point(570, 138);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(100, 23);
-            textBox14.TabIndex = 29;
+            Tonnage_Value.Location = new Point(570, 138);
+            Tonnage_Value.Name = "Tonnage_Value";
+            Tonnage_Value.Size = new Size(100, 23);
+            Tonnage_Value.TabIndex = 29;
             // 
             // label15
             // 
@@ -332,12 +334,12 @@
             label15.TabIndex = 30;
             label15.Text = "Tonnage";
             // 
-            // textBox15
+            // PricePerTon_Value
             // 
-            textBox15.Location = new Point(772, 138);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(100, 23);
-            textBox15.TabIndex = 31;
+            PricePerTon_Value.Location = new Point(772, 138);
+            PricePerTon_Value.Name = "PricePerTon_Value";
+            PricePerTon_Value.Size = new Size(100, 23);
+            PricePerTon_Value.TabIndex = 31;
             // 
             // label16
             // 
@@ -348,12 +350,12 @@
             label16.TabIndex = 32;
             label16.Text = "$/Ton";
             // 
-            // textBox16
+            // RoyaltyRate_Value
             // 
-            textBox16.Location = new Point(570, 196);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(100, 23);
-            textBox16.TabIndex = 33;
+            RoyaltyRate_Value.Location = new Point(570, 196);
+            RoyaltyRate_Value.Name = "RoyaltyRate_Value";
+            RoyaltyRate_Value.Size = new Size(100, 23);
+            RoyaltyRate_Value.TabIndex = 33;
             // 
             // label17
             // 
@@ -364,12 +366,12 @@
             label17.TabIndex = 34;
             label17.Text = "Royalty Rate";
             // 
-            // textBox17
+            // MineralInterest_Value
             // 
-            textBox17.Location = new Point(772, 196);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(100, 23);
-            textBox17.TabIndex = 35;
+            MineralInterest_Value.Location = new Point(772, 196);
+            MineralInterest_Value.Name = "MineralInterest_Value";
+            MineralInterest_Value.Size = new Size(100, 23);
+            MineralInterest_Value.TabIndex = 35;
             // 
             // label18
             // 
@@ -380,12 +382,12 @@
             label18.TabIndex = 36;
             label18.Text = "Mineral Interest";
             // 
-            // textBox18
+            // GrossAmountDue_Value
             // 
-            textBox18.Location = new Point(570, 254);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(100, 23);
-            textBox18.TabIndex = 37;
+            GrossAmountDue_Value.Location = new Point(570, 254);
+            GrossAmountDue_Value.Name = "GrossAmountDue_Value";
+            GrossAmountDue_Value.Size = new Size(100, 23);
+            GrossAmountDue_Value.TabIndex = 37;
             // 
             // label19
             // 
@@ -399,85 +401,21 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(label24);
-            groupBox1.Controls.Add(textBox23);
+            groupBox1.Controls.Add(RecoupAmount_Value);
             groupBox1.Controls.Add(label23);
-            groupBox1.Controls.Add(textBox22);
+            groupBox1.Controls.Add(MarketingCosts_Value);
             groupBox1.Controls.Add(label22);
-            groupBox1.Controls.Add(textBox21);
+            groupBox1.Controls.Add(RecoupRate_Value);
             groupBox1.Controls.Add(label21);
-            groupBox1.Controls.Add(textBox20);
+            groupBox1.Controls.Add(OtherTax_Value);
             groupBox1.Controls.Add(label20);
-            groupBox1.Controls.Add(textBox19);
+            groupBox1.Controls.Add(SeveranceTax_Value);
             groupBox1.Location = new Point(570, 292);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(302, 157);
             groupBox1.TabIndex = 39;
             groupBox1.TabStop = false;
             groupBox1.Text = "LESS: Deductions";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Location = new Point(7, 23);
-            label20.Name = "label20";
-            label20.Size = new Size(80, 15);
-            label20.TabIndex = 41;
-            label20.Text = "Severance Tax";
-            // 
-            // textBox19
-            // 
-            textBox19.Location = new Point(7, 41);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(100, 23);
-            textBox19.TabIndex = 40;
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(196, 25);
-            label21.Name = "label21";
-            label21.Size = new Size(57, 15);
-            label21.TabIndex = 43;
-            label21.Text = "Other Tax";
-            // 
-            // textBox20
-            // 
-            textBox20.Location = new Point(196, 43);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(100, 23);
-            textBox20.TabIndex = 42;
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(8, 70);
-            label22.Name = "label22";
-            label22.Size = new Size(73, 15);
-            label22.TabIndex = 45;
-            label22.Text = "Recoup Rate";
-            // 
-            // textBox21
-            // 
-            textBox21.Location = new Point(8, 88);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(100, 23);
-            textBox21.TabIndex = 44;
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(196, 70);
-            label23.Name = "label23";
-            label23.Size = new Size(93, 15);
-            label23.TabIndex = 47;
-            label23.Text = "Marketing Costs";
-            // 
-            // textBox22
-            // 
-            textBox22.Location = new Point(196, 88);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(100, 23);
-            textBox22.TabIndex = 46;
             // 
             // label24
             // 
@@ -488,58 +426,144 @@
             label24.TabIndex = 49;
             label24.Text = "Recoup Amount";
             // 
-            // textBox23
+            // RecoupAmount_Value
             // 
-            textBox23.Location = new Point(104, 128);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(100, 23);
-            textBox23.TabIndex = 48;
+            RecoupAmount_Value.Location = new Point(104, 128);
+            RecoupAmount_Value.Name = "RecoupAmount_Value";
+            RecoupAmount_Value.Size = new Size(100, 23);
+            RecoupAmount_Value.TabIndex = 48;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(196, 70);
+            label23.Name = "label23";
+            label23.Size = new Size(93, 15);
+            label23.TabIndex = 47;
+            label23.Text = "Marketing Costs";
+            // 
+            // MarketingCosts_Value
+            // 
+            MarketingCosts_Value.Location = new Point(196, 88);
+            MarketingCosts_Value.Name = "MarketingCosts_Value";
+            MarketingCosts_Value.Size = new Size(100, 23);
+            MarketingCosts_Value.TabIndex = 46;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(8, 70);
+            label22.Name = "label22";
+            label22.Size = new Size(73, 15);
+            label22.TabIndex = 45;
+            label22.Text = "Recoup Rate";
+            // 
+            // RecoupRate_Value
+            // 
+            RecoupRate_Value.Location = new Point(8, 88);
+            RecoupRate_Value.Name = "RecoupRate_Value";
+            RecoupRate_Value.Size = new Size(100, 23);
+            RecoupRate_Value.TabIndex = 44;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(196, 25);
+            label21.Name = "label21";
+            label21.Size = new Size(57, 15);
+            label21.TabIndex = 43;
+            label21.Text = "Other Tax";
+            // 
+            // OtherTax_Value
+            // 
+            OtherTax_Value.Location = new Point(196, 43);
+            OtherTax_Value.Name = "OtherTax_Value";
+            OtherTax_Value.Size = new Size(100, 23);
+            OtherTax_Value.TabIndex = 42;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(7, 23);
+            label20.Name = "label20";
+            label20.Size = new Size(80, 15);
+            label20.TabIndex = 41;
+            label20.Text = "Severance Tax";
+            // 
+            // SeveranceTax_Value
+            // 
+            SeveranceTax_Value.Location = new Point(7, 41);
+            SeveranceTax_Value.Name = "SeveranceTax_Value";
+            SeveranceTax_Value.Size = new Size(100, 23);
+            SeveranceTax_Value.TabIndex = 40;
+            // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 40;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 41;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
             // 
             // Mining_Production_Payable
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(groupBox1);
             Controls.Add(label19);
-            Controls.Add(textBox18);
+            Controls.Add(GrossAmountDue_Value);
             Controls.Add(label18);
-            Controls.Add(textBox17);
+            Controls.Add(MineralInterest_Value);
             Controls.Add(label17);
-            Controls.Add(textBox16);
+            Controls.Add(RoyaltyRate_Value);
             Controls.Add(label16);
-            Controls.Add(textBox15);
+            Controls.Add(PricePerTon_Value);
             Controls.Add(label15);
-            Controls.Add(textBox14);
+            Controls.Add(Tonnage_Value);
             Controls.Add(label14);
-            Controls.Add(textBox13);
+            Controls.Add(SuspenseNumber_Value);
             Controls.Add(label13);
-            Controls.Add(textBox12);
+            Controls.Add(BankAccountNumber_Value);
             Controls.Add(label12);
-            Controls.Add(textBox11);
+            Controls.Add(DepartmentBankID_Value);
             Controls.Add(label11);
-            Controls.Add(textBox10);
+            Controls.Add(PayeeID_Value);
             Controls.Add(label10);
-            Controls.Add(textBox9);
+            Controls.Add(ShippingFrom_Value);
             Controls.Add(label9);
-            Controls.Add(textBox8);
+            Controls.Add(MiningMethod_Value);
             Controls.Add(label8);
-            Controls.Add(textBox7);
+            Controls.Add(MineID_Value);
             Controls.Add(label7);
-            Controls.Add(textBox6);
+            Controls.Add(SubtractID_Value);
             Controls.Add(label6);
-            Controls.Add(textBox5);
+            Controls.Add(TractID_Value);
             Controls.Add(label5);
-            Controls.Add(textBox4);
+            Controls.Add(LeaseID_Value);
             Controls.Add(label4);
-            Controls.Add(textBox3);
-            Controls.Add(checkBox1);
+            Controls.Add(AccountPeriod_Value);
+            Controls.Add(OKToPay_Value);
             Controls.Add(label3);
-            Controls.Add(comboBox1);
+            Controls.Add(PayableIn_Value);
             Controls.Add(label2);
-            Controls.Add(textBox2);
+            Controls.Add(DueMonth_Value);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(YearMonth_Value);
             Name = "Mining_Production_Payable";
             Text = "Mining_Production_Payable";
             groupBox1.ResumeLayout(false);
@@ -550,55 +574,57 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox YearMonth_Value;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox DueMonth_Value;
         private Label label2;
-        private ComboBox comboBox1;
+        private ComboBox PayableIn_Value;
         private Label label3;
-        private CheckBox checkBox1;
-        private TextBox textBox3;
+        private CheckBox OKToPay_Value;
+        private TextBox AccountPeriod_Value;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox LeaseID_Value;
         private Label label5;
-        private TextBox textBox5;
+        private TextBox TractID_Value;
         private Label label6;
-        private TextBox textBox6;
+        private TextBox SubtractID_Value;
         private Label label7;
-        private TextBox textBox7;
+        private TextBox MineID_Value;
         private Label label8;
-        private TextBox textBox8;
+        private TextBox MiningMethod_Value;
         private Label label9;
-        private TextBox textBox9;
+        private TextBox ShippingFrom_Value;
         private Label label10;
-        private TextBox textBox10;
+        private TextBox PayeeID_Value;
         private Label label11;
-        private TextBox textBox11;
+        private TextBox DepartmentBankID_Value;
         private Label label12;
-        private TextBox textBox12;
+        private TextBox BankAccountNumber_Value;
         private Label label13;
-        private TextBox textBox13;
+        private TextBox SuspenseNumber_Value;
         private Label label14;
-        private TextBox textBox14;
+        private TextBox Tonnage_Value;
         private Label label15;
-        private TextBox textBox15;
+        private TextBox PricePerTon_Value;
         private Label label16;
-        private TextBox textBox16;
+        private TextBox RoyaltyRate_Value;
         private Label label17;
-        private TextBox textBox17;
+        private TextBox MineralInterest_Value;
         private Label label18;
-        private TextBox textBox18;
+        private TextBox GrossAmountDue_Value;
         private Label label19;
         private GroupBox groupBox1;
         private Label label20;
-        private TextBox textBox19;
+        private TextBox SeveranceTax_Value;
         private Label label24;
-        private TextBox textBox23;
+        private TextBox RecoupAmount_Value;
         private Label label23;
-        private TextBox textBox22;
+        private TextBox MarketingCosts_Value;
         private Label label22;
-        private TextBox textBox21;
+        private TextBox RecoupRate_Value;
         private Label label21;
-        private TextBox textBox20;
+        private TextBox OtherTax_Value;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

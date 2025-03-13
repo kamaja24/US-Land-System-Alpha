@@ -28,23 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            RemarkID_Value = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
+            Description_Value = new TextBox();
             label2 = new Label();
-            textBox3 = new TextBox();
+            Type_Value = new TextBox();
             label3 = new Label();
-            checkBox1 = new CheckBox();
-            textBox4 = new TextBox();
+            Active_Value = new CheckBox();
+            Remark_Value = new TextBox();
             Remark = new Label();
+            BackButton = new Button();
+            SaveButton = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // RemarkID_Value
             // 
-            textBox1.Location = new Point(85, 77);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(256, 23);
-            textBox1.TabIndex = 0;
+            RemarkID_Value.Location = new Point(85, 77);
+            RemarkID_Value.Name = "RemarkID_Value";
+            RemarkID_Value.Size = new Size(256, 23);
+            RemarkID_Value.TabIndex = 0;
             // 
             // label1
             // 
@@ -55,12 +57,12 @@
             label1.TabIndex = 1;
             label1.Text = "Remark ID";
             // 
-            // textBox2
+            // Description_Value
             // 
-            textBox2.Location = new Point(85, 106);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(256, 23);
-            textBox2.TabIndex = 2;
+            Description_Value.Location = new Point(85, 106);
+            Description_Value.Name = "Description_Value";
+            Description_Value.Size = new Size(256, 23);
+            Description_Value.TabIndex = 2;
             // 
             // label2
             // 
@@ -71,12 +73,12 @@
             label2.TabIndex = 3;
             label2.Text = "Description";
             // 
-            // textBox3
+            // Type_Value
             // 
-            textBox3.Location = new Point(85, 135);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(256, 23);
-            textBox3.TabIndex = 4;
+            Type_Value.Location = new Point(85, 135);
+            Type_Value.Name = "Type_Value";
+            Type_Value.Size = new Size(256, 23);
+            Type_Value.TabIndex = 4;
             // 
             // label3
             // 
@@ -87,23 +89,23 @@
             label3.TabIndex = 5;
             label3.Text = "Type";
             // 
-            // checkBox1
+            // Active_Value
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(633, 108);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(64, 19);
-            checkBox1.TabIndex = 6;
-            checkBox1.Text = "Active?";
-            checkBox1.UseVisualStyleBackColor = true;
+            Active_Value.AutoSize = true;
+            Active_Value.Location = new Point(633, 108);
+            Active_Value.Name = "Active_Value";
+            Active_Value.Size = new Size(64, 19);
+            Active_Value.TabIndex = 6;
+            Active_Value.Text = "Active?";
+            Active_Value.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // Remark_Value
             // 
-            textBox4.Location = new Point(85, 164);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(538, 185);
-            textBox4.TabIndex = 7;
+            Remark_Value.Location = new Point(85, 164);
+            Remark_Value.Multiline = true;
+            Remark_Value.Name = "Remark_Value";
+            Remark_Value.Size = new Size(538, 185);
+            Remark_Value.TabIndex = 7;
             // 
             // Remark
             // 
@@ -114,20 +116,42 @@
             Remark.TabIndex = 8;
             Remark.Text = "Remark";
             // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 11;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 12;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
+            // 
             // Remarks
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(Remark);
-            Controls.Add(textBox4);
-            Controls.Add(checkBox1);
+            Controls.Add(Remark_Value);
+            Controls.Add(Active_Value);
             Controls.Add(label3);
-            Controls.Add(textBox3);
+            Controls.Add(Type_Value);
             Controls.Add(label2);
-            Controls.Add(textBox2);
+            Controls.Add(Description_Value);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(RemarkID_Value);
             Name = "Remarks";
             Text = "Remarks";
             ResumeLayout(false);
@@ -136,14 +160,16 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox RemarkID_Value;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox Description_Value;
         private Label label2;
-        private TextBox textBox3;
+        private TextBox Type_Value;
         private Label label3;
-        private CheckBox checkBox1;
-        private TextBox textBox4;
+        private CheckBox Active_Value;
+        private TextBox Remark_Value;
         private Label Remark;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

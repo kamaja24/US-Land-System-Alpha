@@ -28,39 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            OwnerID_Value = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
+            LeaseID_Value = new TextBox();
             label2 = new Label();
             groupBox1 = new GroupBox();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            textBox5 = new TextBox();
-            label5 = new Label();
-            textBox6 = new TextBox();
-            label6 = new Label();
-            textBox7 = new TextBox();
-            label7 = new Label();
-            textBox8 = new TextBox();
-            label8 = new Label();
-            textBox9 = new TextBox();
-            label9 = new Label();
-            textBox10 = new TextBox();
+            Active_Value = new CheckBox();
+            Tenant_Value = new CheckBox();
+            NOExecutiveRights_Value = new CheckBox();
             label10 = new Label();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
+            Tenure_Value = new TextBox();
+            label9 = new Label();
+            SuspenseCode_Value = new TextBox();
+            label8 = new Label();
+            ExpirationDate_Value = new TextBox();
+            label7 = new Label();
+            EffectiveDate_Value = new TextBox();
+            label6 = new Label();
+            SubsistenceInterest_Value = new TextBox();
+            label5 = new Label();
+            Surface_Interest = new TextBox();
+            label4 = new Label();
+            Mineral_Interest = new TextBox();
+            label3 = new Label();
+            Formula_Value = new TextBox();
+            BackButton = new Button();
+            SaveButton = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // textBox1
+            // OwnerID_Value
             // 
-            textBox1.Location = new Point(135, 77);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            OwnerID_Value.Location = new Point(135, 77);
+            OwnerID_Value.Name = "OwnerID_Value";
+            OwnerID_Value.Size = new Size(100, 23);
+            OwnerID_Value.TabIndex = 0;
             // 
             // label1
             // 
@@ -71,12 +73,12 @@
             label1.TabIndex = 1;
             label1.Text = "Owner ID";
             // 
-            // textBox2
+            // LeaseID_Value
             // 
-            textBox2.Location = new Point(135, 106);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
+            LeaseID_Value.Location = new Point(135, 106);
+            LeaseID_Value.Name = "LeaseID_Value";
+            LeaseID_Value.Size = new Size(100, 23);
+            LeaseID_Value.TabIndex = 2;
             // 
             // label2
             // 
@@ -89,25 +91,25 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(checkBox3);
-            groupBox1.Controls.Add(checkBox2);
-            groupBox1.Controls.Add(checkBox1);
+            groupBox1.Controls.Add(Active_Value);
+            groupBox1.Controls.Add(Tenant_Value);
+            groupBox1.Controls.Add(NOExecutiveRights_Value);
             groupBox1.Controls.Add(label10);
-            groupBox1.Controls.Add(textBox10);
+            groupBox1.Controls.Add(Tenure_Value);
             groupBox1.Controls.Add(label9);
-            groupBox1.Controls.Add(textBox9);
+            groupBox1.Controls.Add(SuspenseCode_Value);
             groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(textBox8);
+            groupBox1.Controls.Add(ExpirationDate_Value);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(textBox7);
+            groupBox1.Controls.Add(EffectiveDate_Value);
             groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(textBox6);
+            groupBox1.Controls.Add(SubsistenceInterest_Value);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(textBox5);
+            groupBox1.Controls.Add(Surface_Interest);
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox4);
+            groupBox1.Controls.Add(Mineral_Interest);
             groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(Formula_Value);
             groupBox1.Location = new Point(12, 135);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(860, 314);
@@ -115,125 +117,35 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Ownership Interest";
             // 
-            // textBox3
+            // Active_Value
             // 
-            textBox3.Location = new Point(123, 22);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(731, 76);
-            textBox3.TabIndex = 0;
+            Active_Value.AutoSize = true;
+            Active_Value.Location = new Point(717, 164);
+            Active_Value.Name = "Active_Value";
+            Active_Value.Size = new Size(64, 19);
+            Active_Value.TabIndex = 21;
+            Active_Value.Text = "Active?";
+            Active_Value.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // Tenant_Value
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(6, 25);
-            label3.Name = "label3";
-            label3.Size = new Size(51, 15);
-            label3.TabIndex = 5;
-            label3.Text = "Formula";
+            Tenant_Value.AutoSize = true;
+            Tenant_Value.Location = new Point(717, 135);
+            Tenant_Value.Name = "Tenant_Value";
+            Tenant_Value.Size = new Size(67, 19);
+            Tenant_Value.TabIndex = 20;
+            Tenant_Value.Text = "Tenant?";
+            Tenant_Value.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // NOExecutiveRights_Value
             // 
-            textBox4.Location = new Point(123, 104);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 5;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 107);
-            label4.Name = "label4";
-            label4.Size = new Size(89, 15);
-            label4.TabIndex = 6;
-            label4.Text = "Mineral Interest";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(123, 133);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 7;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(6, 136);
-            label5.Name = "label5";
-            label5.Size = new Size(88, 15);
-            label5.TabIndex = 8;
-            label5.Text = "Surface Interest";
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(123, 162);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 9;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(6, 165);
-            label6.Name = "label6";
-            label6.Size = new Size(111, 15);
-            label6.TabIndex = 10;
-            label6.Text = "Subsistence Interest";
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(123, 191);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(100, 23);
-            textBox7.TabIndex = 11;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(6, 194);
-            label7.Name = "label7";
-            label7.Size = new Size(79, 15);
-            label7.TabIndex = 12;
-            label7.Text = "Effective Date";
-            // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(123, 220);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(100, 23);
-            textBox8.TabIndex = 13;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(6, 223);
-            label8.Name = "label8";
-            label8.Size = new Size(86, 15);
-            label8.TabIndex = 14;
-            label8.Text = "Expiration Date";
-            // 
-            // textBox9
-            // 
-            textBox9.Location = new Point(123, 249);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(100, 23);
-            textBox9.TabIndex = 15;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(6, 252);
-            label9.Name = "label9";
-            label9.Size = new Size(87, 15);
-            label9.TabIndex = 16;
-            label9.Text = "Suspense Code";
-            // 
-            // textBox10
-            // 
-            textBox10.Location = new Point(123, 278);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(100, 23);
-            textBox10.TabIndex = 17;
+            NOExecutiveRights_Value.AutoSize = true;
+            NOExecutiveRights_Value.Location = new Point(717, 106);
+            NOExecutiveRights_Value.Name = "NOExecutiveRights_Value";
+            NOExecutiveRights_Value.Size = new Size(137, 19);
+            NOExecutiveRights_Value.TabIndex = 19;
+            NOExecutiveRights_Value.Text = "NO Executive Rights?";
+            NOExecutiveRights_Value.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -244,46 +156,158 @@
             label10.TabIndex = 18;
             label10.Text = "Tenure";
             // 
-            // checkBox1
+            // Tenure_Value
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(717, 106);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(137, 19);
-            checkBox1.TabIndex = 19;
-            checkBox1.Text = "NO Executive Rights?";
-            checkBox1.UseVisualStyleBackColor = true;
+            Tenure_Value.Location = new Point(123, 278);
+            Tenure_Value.Name = "Tenure_Value";
+            Tenure_Value.Size = new Size(100, 23);
+            Tenure_Value.TabIndex = 17;
             // 
-            // checkBox2
+            // label9
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(717, 135);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(67, 19);
-            checkBox2.TabIndex = 20;
-            checkBox2.Text = "Tenant?";
-            checkBox2.UseVisualStyleBackColor = true;
+            label9.AutoSize = true;
+            label9.Location = new Point(6, 252);
+            label9.Name = "label9";
+            label9.Size = new Size(87, 15);
+            label9.TabIndex = 16;
+            label9.Text = "Suspense Code";
             // 
-            // checkBox3
+            // SuspenseCode_Value
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(717, 164);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(64, 19);
-            checkBox3.TabIndex = 21;
-            checkBox3.Text = "Active?";
-            checkBox3.UseVisualStyleBackColor = true;
+            SuspenseCode_Value.Location = new Point(123, 249);
+            SuspenseCode_Value.Name = "SuspenseCode_Value";
+            SuspenseCode_Value.Size = new Size(100, 23);
+            SuspenseCode_Value.TabIndex = 15;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(6, 223);
+            label8.Name = "label8";
+            label8.Size = new Size(86, 15);
+            label8.TabIndex = 14;
+            label8.Text = "Expiration Date";
+            // 
+            // ExpirationDate_Value
+            // 
+            ExpirationDate_Value.Location = new Point(123, 220);
+            ExpirationDate_Value.Name = "ExpirationDate_Value";
+            ExpirationDate_Value.Size = new Size(100, 23);
+            ExpirationDate_Value.TabIndex = 13;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 194);
+            label7.Name = "label7";
+            label7.Size = new Size(79, 15);
+            label7.TabIndex = 12;
+            label7.Text = "Effective Date";
+            // 
+            // EffectiveDate_Value
+            // 
+            EffectiveDate_Value.Location = new Point(123, 191);
+            EffectiveDate_Value.Name = "EffectiveDate_Value";
+            EffectiveDate_Value.Size = new Size(100, 23);
+            EffectiveDate_Value.TabIndex = 11;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 165);
+            label6.Name = "label6";
+            label6.Size = new Size(111, 15);
+            label6.TabIndex = 10;
+            label6.Text = "Subsistence Interest";
+            // 
+            // SubsistenceInterest_Value
+            // 
+            SubsistenceInterest_Value.Location = new Point(123, 162);
+            SubsistenceInterest_Value.Name = "SubsistenceInterest_Value";
+            SubsistenceInterest_Value.Size = new Size(100, 23);
+            SubsistenceInterest_Value.TabIndex = 9;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 136);
+            label5.Name = "label5";
+            label5.Size = new Size(88, 15);
+            label5.TabIndex = 8;
+            label5.Text = "Surface Interest";
+            // 
+            // Surface_Interest
+            // 
+            Surface_Interest.Location = new Point(123, 133);
+            Surface_Interest.Name = "Surface_Interest";
+            Surface_Interest.Size = new Size(100, 23);
+            Surface_Interest.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 107);
+            label4.Name = "label4";
+            label4.Size = new Size(89, 15);
+            label4.TabIndex = 6;
+            label4.Text = "Mineral Interest";
+            // 
+            // Mineral_Interest
+            // 
+            Mineral_Interest.Location = new Point(123, 104);
+            Mineral_Interest.Name = "Mineral_Interest";
+            Mineral_Interest.Size = new Size(100, 23);
+            Mineral_Interest.TabIndex = 5;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(6, 25);
+            label3.Name = "label3";
+            label3.Size = new Size(51, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Formula";
+            // 
+            // Formula_Value
+            // 
+            Formula_Value.Location = new Point(123, 22);
+            Formula_Value.Multiline = true;
+            Formula_Value.Name = "Formula_Value";
+            Formula_Value.Size = new Size(731, 76);
+            Formula_Value.TabIndex = 0;
+            // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 11;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 12;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
             // 
             // Tract__Ownership
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(groupBox1);
             Controls.Add(label2);
-            Controls.Add(textBox2);
+            Controls.Add(LeaseID_Value);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(OwnerID_Value);
             Name = "Tract__Ownership";
             Text = "Tract__Ownership";
             groupBox1.ResumeLayout(false);
@@ -294,29 +318,31 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox OwnerID_Value;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox LeaseID_Value;
         private Label label2;
         private GroupBox groupBox1;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
+        private CheckBox Active_Value;
+        private CheckBox Tenant_Value;
+        private CheckBox NOExecutiveRights_Value;
         private Label label10;
-        private TextBox textBox10;
+        private TextBox Tenure_Value;
         private Label label9;
-        private TextBox textBox9;
+        private TextBox SuspenseCode_Value;
         private Label label8;
-        private TextBox textBox8;
+        private TextBox ExpirationDate_Value;
         private Label label7;
-        private TextBox textBox7;
+        private TextBox EffectiveDate_Value;
         private Label label6;
-        private TextBox textBox6;
+        private TextBox SubsistenceInterest_Value;
         private Label label5;
-        private TextBox textBox5;
+        private TextBox Surface_Interest;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox Mineral_Interest;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox Formula_Value;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

@@ -31,127 +31,127 @@
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             label20 = new Label();
-            textBox17 = new TextBox();
+            Meter4_Value = new TextBox();
             label19 = new Label();
-            textBox16 = new TextBox();
+            Meter3_Value = new TextBox();
             label18 = new Label();
-            textBox15 = new TextBox();
+            Meter2_Value = new TextBox();
             label17 = new Label();
-            textBox14 = new TextBox();
+            Meter1_Value = new TextBox();
             label16 = new Label();
-            textBox13 = new TextBox();
+            ProducingFrom_Value = new TextBox();
             label15 = new Label();
-            textBox12 = new TextBox();
+            TankBattery_Value = new TextBox();
             label14 = new Label();
-            textBox11 = new TextBox();
+            PermitNumber_Value = new TextBox();
             label13 = new Label();
             label12 = new Label();
             label11 = new Label();
-            textBox10 = new TextBox();
+            TotalDepth_Value = new TextBox();
             label10 = new Label();
-            comboBox1 = new ComboBox();
+            AcreageType_Value = new ComboBox();
             groupBox3 = new GroupBox();
             label9 = new Label();
-            textBox9 = new TextBox();
+            ProspectID_Value = new TextBox();
             groupBox2 = new GroupBox();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
-            textBox8 = new TextBox();
-            textBox7 = new TextBox();
-            textBox6 = new TextBox();
+            PayoutCode_Value = new TextBox();
+            AcquisitionCode_Value = new TextBox();
+            WellStatus_Value = new TextBox();
             label5 = new Label();
-            textBox5 = new TextBox();
-            checkBox3 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox1 = new CheckBox();
+            WellType_Value = new TextBox();
+            SplitStream_Value = new CheckBox();
+            OKToPay_Value = new CheckBox();
+            Active_Value = new CheckBox();
             groupBox1 = new GroupBox();
             label4 = new Label();
-            textBox4 = new TextBox();
+            API_Value = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
+            AlternateIDNumber_Value = new TextBox();
             label2 = new Label();
-            textBox2 = new TextBox();
+            WellName_Value = new TextBox();
             label1 = new Label();
-            textBox1 = new TextBox();
+            WellIDNumber_Value = new TextBox();
             tabPage2 = new TabPage();
             groupBox4 = new GroupBox();
             label46 = new Label();
-            textBox42 = new TextBox();
-            label45 = new Label();
-            textBox41 = new TextBox();
+            SoldTo_Value = new TextBox();
             label44 = new Label();
-            textBox40 = new TextBox();
+            AcquiredFrom_Value = new TextBox();
             label43 = new Label();
-            textBox39 = new TextBox();
+            CurrentOperator_Value = new TextBox();
             label42 = new Label();
-            textBox38 = new TextBox();
+            ResponsibleParty_Value = new TextBox();
             label41 = new Label();
-            comboBox2 = new ComboBox();
-            textBox34 = new TextBox();
+            Purchaser_Value = new ComboBox();
+            Payout4_Value = new TextBox();
             label37 = new Label();
-            textBox35 = new TextBox();
+            Payout3_Value = new TextBox();
             label38 = new Label();
-            textBox36 = new TextBox();
+            Payout2_Value = new TextBox();
             label39 = new Label();
-            textBox37 = new TextBox();
+            Payout1_Value = new TextBox();
             label40 = new Label();
-            textBox30 = new TextBox();
+            DateTD_Value = new TextBox();
             label33 = new Label();
-            textBox31 = new TextBox();
+            DateTested_Value = new TextBox();
             label34 = new Label();
-            textBox32 = new TextBox();
+            LastFracDate_Value = new TextBox();
             label35 = new Label();
-            textBox33 = new TextBox();
+            RigReleased_Value = new TextBox();
             label36 = new Label();
-            textBox26 = new TextBox();
+            OtherDate2_Value = new TextBox();
             label29 = new Label();
-            textBox27 = new TextBox();
+            OtherDate_Value = new TextBox();
             label30 = new Label();
-            textBox28 = new TextBox();
+            PluggedDate_Value = new TextBox();
             label31 = new Label();
-            textBox29 = new TextBox();
+            LastShutIn_Value = new TextBox();
             label32 = new Label();
-            textBox22 = new TextBox();
+            FirstSalesDate_Value = new TextBox();
             label25 = new Label();
-            textBox23 = new TextBox();
+            DateOnLine_Value = new TextBox();
             label26 = new Label();
-            textBox24 = new TextBox();
+            Completion_Value = new TextBox();
             label27 = new Label();
-            textBox25 = new TextBox();
+            SpudDate_Value = new TextBox();
             label28 = new Label();
-            textBox21 = new TextBox();
+            DateSold_Value = new TextBox();
             label24 = new Label();
-            textBox20 = new TextBox();
+            DateAcquired_Value = new TextBox();
             label23 = new Label();
-            textBox19 = new TextBox();
+            PermitExpire_Value = new TextBox();
             label22 = new Label();
-            textBox18 = new TextBox();
+            PermitEffective_Value = new TextBox();
             label21 = new Label();
             tabPage3 = new TabPage();
-            textBox49 = new TextBox();
+            LocationNotes_Value = new TextBox();
             label53 = new Label();
-            textBox48 = new TextBox();
+            WellLegalDescription_Value = new TextBox();
             label52 = new Label();
-            textBox47 = new TextBox();
+            ZCoordinate_Value = new TextBox();
             label51 = new Label();
-            textBox46 = new TextBox();
+            YCoordinate_Value = new TextBox();
             label50 = new Label();
-            textBox45 = new TextBox();
+            XCoordinate_Value = new TextBox();
             label49 = new Label();
-            textBox44 = new TextBox();
+            PoolName_Value = new TextBox();
             label48 = new Label();
-            textBox43 = new TextBox();
+            AreaName_Value = new TextBox();
             label47 = new Label();
             tabPage4 = new TabPage();
-            label54 = new Label();
-            textBox50 = new TextBox();
-            textBox51 = new TextBox();
-            label55 = new Label();
-            textBox52 = new TextBox();
-            label56 = new Label();
-            textBox53 = new TextBox();
+            Field4_Value = new TextBox();
             label57 = new Label();
+            Field3_Value = new TextBox();
+            label56 = new Label();
+            Field2_Value = new TextBox();
+            label55 = new Label();
+            Field1_Value = new TextBox();
+            label54 = new Label();
+            BackButton = new Button();
+            SaveButton = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -178,30 +178,30 @@
             // tabPage1
             // 
             tabPage1.Controls.Add(label20);
-            tabPage1.Controls.Add(textBox17);
+            tabPage1.Controls.Add(Meter4_Value);
             tabPage1.Controls.Add(label19);
-            tabPage1.Controls.Add(textBox16);
+            tabPage1.Controls.Add(Meter3_Value);
             tabPage1.Controls.Add(label18);
-            tabPage1.Controls.Add(textBox15);
+            tabPage1.Controls.Add(Meter2_Value);
             tabPage1.Controls.Add(label17);
-            tabPage1.Controls.Add(textBox14);
+            tabPage1.Controls.Add(Meter1_Value);
             tabPage1.Controls.Add(label16);
-            tabPage1.Controls.Add(textBox13);
+            tabPage1.Controls.Add(ProducingFrom_Value);
             tabPage1.Controls.Add(label15);
-            tabPage1.Controls.Add(textBox12);
+            tabPage1.Controls.Add(TankBattery_Value);
             tabPage1.Controls.Add(label14);
-            tabPage1.Controls.Add(textBox11);
+            tabPage1.Controls.Add(PermitNumber_Value);
             tabPage1.Controls.Add(label13);
             tabPage1.Controls.Add(label12);
             tabPage1.Controls.Add(label11);
-            tabPage1.Controls.Add(textBox10);
+            tabPage1.Controls.Add(TotalDepth_Value);
             tabPage1.Controls.Add(label10);
-            tabPage1.Controls.Add(comboBox1);
+            tabPage1.Controls.Add(AcreageType_Value);
             tabPage1.Controls.Add(groupBox3);
             tabPage1.Controls.Add(groupBox2);
-            tabPage1.Controls.Add(checkBox3);
-            tabPage1.Controls.Add(checkBox2);
-            tabPage1.Controls.Add(checkBox1);
+            tabPage1.Controls.Add(SplitStream_Value);
+            tabPage1.Controls.Add(OKToPay_Value);
+            tabPage1.Controls.Add(Active_Value);
             tabPage1.Controls.Add(groupBox1);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
@@ -220,12 +220,12 @@
             label20.TabIndex = 32;
             label20.Text = "Meter 4";
             // 
-            // textBox17
+            // Meter4_Value
             // 
-            textBox17.Location = new Point(762, 293);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(84, 23);
-            textBox17.TabIndex = 31;
+            Meter4_Value.Location = new Point(762, 293);
+            Meter4_Value.Name = "Meter4_Value";
+            Meter4_Value.Size = new Size(84, 23);
+            Meter4_Value.TabIndex = 31;
             // 
             // label19
             // 
@@ -236,12 +236,12 @@
             label19.TabIndex = 30;
             label19.Text = "Meter 3";
             // 
-            // textBox16
+            // Meter3_Value
             // 
-            textBox16.Location = new Point(762, 264);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(84, 23);
-            textBox16.TabIndex = 29;
+            Meter3_Value.Location = new Point(762, 264);
+            Meter3_Value.Name = "Meter3_Value";
+            Meter3_Value.Size = new Size(84, 23);
+            Meter3_Value.TabIndex = 29;
             // 
             // label18
             // 
@@ -252,12 +252,12 @@
             label18.TabIndex = 28;
             label18.Text = "Meter 2";
             // 
-            // textBox15
+            // Meter2_Value
             // 
-            textBox15.Location = new Point(567, 293);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(84, 23);
-            textBox15.TabIndex = 27;
+            Meter2_Value.Location = new Point(567, 293);
+            Meter2_Value.Name = "Meter2_Value";
+            Meter2_Value.Size = new Size(84, 23);
+            Meter2_Value.TabIndex = 27;
             // 
             // label17
             // 
@@ -268,12 +268,12 @@
             label17.TabIndex = 26;
             label17.Text = "Meter 1";
             // 
-            // textBox14
+            // Meter1_Value
             // 
-            textBox14.Location = new Point(567, 264);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(84, 23);
-            textBox14.TabIndex = 25;
+            Meter1_Value.Location = new Point(567, 264);
+            Meter1_Value.Name = "Meter1_Value";
+            Meter1_Value.Size = new Size(84, 23);
+            Meter1_Value.TabIndex = 25;
             // 
             // label16
             // 
@@ -284,12 +284,12 @@
             label16.TabIndex = 24;
             label16.Text = "Producing From";
             // 
-            // textBox13
+            // ProducingFrom_Value
             // 
-            textBox13.Location = new Point(567, 235);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(184, 23);
-            textBox13.TabIndex = 23;
+            ProducingFrom_Value.Location = new Point(567, 235);
+            ProducingFrom_Value.Name = "ProducingFrom_Value";
+            ProducingFrom_Value.Size = new Size(184, 23);
+            ProducingFrom_Value.TabIndex = 23;
             // 
             // label15
             // 
@@ -300,12 +300,12 @@
             label15.TabIndex = 22;
             label15.Text = "Tank Battery";
             // 
-            // textBox12
+            // TankBattery_Value
             // 
-            textBox12.Location = new Point(567, 206);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(184, 23);
-            textBox12.TabIndex = 21;
+            TankBattery_Value.Location = new Point(567, 206);
+            TankBattery_Value.Name = "TankBattery_Value";
+            TankBattery_Value.Size = new Size(184, 23);
+            TankBattery_Value.TabIndex = 21;
             // 
             // label14
             // 
@@ -316,12 +316,12 @@
             label14.TabIndex = 20;
             label14.Text = "Permit Number";
             // 
-            // textBox11
+            // PermitNumber_Value
             // 
-            textBox11.Location = new Point(567, 177);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(184, 23);
-            textBox11.TabIndex = 19;
+            PermitNumber_Value.Location = new Point(567, 177);
+            PermitNumber_Value.Name = "PermitNumber_Value";
+            PermitNumber_Value.Size = new Size(184, 23);
+            PermitNumber_Value.TabIndex = 19;
             // 
             // label13
             // 
@@ -350,12 +350,12 @@
             label11.TabIndex = 16;
             label11.Text = "Well Acreage";
             // 
-            // textBox10
+            // TotalDepth_Value
             // 
-            textBox10.Location = new Point(567, 148);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(184, 23);
-            textBox10.TabIndex = 15;
+            TotalDepth_Value.Location = new Point(567, 148);
+            TotalDepth_Value.Name = "TotalDepth_Value";
+            TotalDepth_Value.Size = new Size(184, 23);
+            TotalDepth_Value.TabIndex = 15;
             // 
             // label10
             // 
@@ -366,18 +366,18 @@
             label10.TabIndex = 15;
             label10.Text = "Acreage Type";
             // 
-            // comboBox1
+            // AcreageType_Value
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(567, 119);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 6;
+            AcreageType_Value.FormattingEnabled = true;
+            AcreageType_Value.Location = new Point(567, 119);
+            AcreageType_Value.Name = "AcreageType_Value";
+            AcreageType_Value.Size = new Size(121, 23);
+            AcreageType_Value.TabIndex = 6;
             // 
             // groupBox3
             // 
             groupBox3.Controls.Add(label9);
-            groupBox3.Controls.Add(textBox9);
+            groupBox3.Controls.Add(ProspectID_Value);
             groupBox3.Location = new Point(6, 254);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(435, 84);
@@ -394,23 +394,23 @@
             label9.TabIndex = 15;
             label9.Text = "Prospect ID";
             // 
-            // textBox9
+            // ProspectID_Value
             // 
-            textBox9.Location = new Point(107, 22);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(184, 23);
-            textBox9.TabIndex = 15;
+            ProspectID_Value.Location = new Point(107, 22);
+            ProspectID_Value.Name = "ProspectID_Value";
+            ProspectID_Value.Size = new Size(184, 23);
+            ProspectID_Value.TabIndex = 15;
             // 
             // groupBox2
             // 
             groupBox2.Controls.Add(label8);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(textBox8);
-            groupBox2.Controls.Add(textBox7);
-            groupBox2.Controls.Add(textBox6);
+            groupBox2.Controls.Add(PayoutCode_Value);
+            groupBox2.Controls.Add(AcquisitionCode_Value);
+            groupBox2.Controls.Add(WellStatus_Value);
             groupBox2.Controls.Add(label5);
-            groupBox2.Controls.Add(textBox5);
+            groupBox2.Controls.Add(WellType_Value);
             groupBox2.Location = new Point(6, 105);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(435, 143);
@@ -445,27 +445,27 @@
             label6.TabIndex = 12;
             label6.Text = "Well Status";
             // 
-            // textBox8
+            // PayoutCode_Value
             // 
-            textBox8.Location = new Point(107, 109);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(184, 23);
-            textBox8.TabIndex = 11;
+            PayoutCode_Value.Location = new Point(107, 109);
+            PayoutCode_Value.Name = "PayoutCode_Value";
+            PayoutCode_Value.Size = new Size(184, 23);
+            PayoutCode_Value.TabIndex = 11;
             // 
-            // textBox7
+            // AcquisitionCode_Value
             // 
-            textBox7.Location = new Point(107, 80);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(184, 23);
-            textBox7.TabIndex = 10;
-            textBox7.TextChanged += textBox7_TextChanged;
+            AcquisitionCode_Value.Location = new Point(107, 80);
+            AcquisitionCode_Value.Name = "AcquisitionCode_Value";
+            AcquisitionCode_Value.Size = new Size(184, 23);
+            AcquisitionCode_Value.TabIndex = 10;
+            AcquisitionCode_Value.TextChanged += textBox7_TextChanged;
             // 
-            // textBox6
+            // WellStatus_Value
             // 
-            textBox6.Location = new Point(107, 51);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(184, 23);
-            textBox6.TabIndex = 9;
+            WellStatus_Value.Location = new Point(107, 51);
+            WellStatus_Value.Name = "WellStatus_Value";
+            WellStatus_Value.Size = new Size(184, 23);
+            WellStatus_Value.TabIndex = 9;
             // 
             // label5
             // 
@@ -476,53 +476,53 @@
             label5.TabIndex = 8;
             label5.Text = "Well Type";
             // 
-            // textBox5
+            // WellType_Value
             // 
-            textBox5.Location = new Point(107, 22);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(184, 23);
-            textBox5.TabIndex = 8;
+            WellType_Value.Location = new Point(107, 22);
+            WellType_Value.Name = "WellType_Value";
+            WellType_Value.Size = new Size(184, 23);
+            WellType_Value.TabIndex = 8;
             // 
-            // checkBox3
+            // SplitStream_Value
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(700, 73);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(94, 19);
-            checkBox3.TabIndex = 3;
-            checkBox3.Text = "Split Stream?";
-            checkBox3.UseVisualStyleBackColor = true;
+            SplitStream_Value.AutoSize = true;
+            SplitStream_Value.Location = new Point(700, 73);
+            SplitStream_Value.Name = "SplitStream_Value";
+            SplitStream_Value.Size = new Size(94, 19);
+            SplitStream_Value.TabIndex = 3;
+            SplitStream_Value.Text = "Split Stream?";
+            SplitStream_Value.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // OKToPay_Value
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(700, 48);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(83, 19);
-            checkBox2.TabIndex = 2;
-            checkBox2.Text = "OK to Pay?";
-            checkBox2.UseVisualStyleBackColor = true;
+            OKToPay_Value.AutoSize = true;
+            OKToPay_Value.Location = new Point(700, 48);
+            OKToPay_Value.Name = "OKToPay_Value";
+            OKToPay_Value.Size = new Size(83, 19);
+            OKToPay_Value.TabIndex = 2;
+            OKToPay_Value.Text = "OK to Pay?";
+            OKToPay_Value.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // Active_Value
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(700, 23);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(64, 19);
-            checkBox1.TabIndex = 1;
-            checkBox1.Text = "Active?";
-            checkBox1.UseVisualStyleBackColor = true;
+            Active_Value.AutoSize = true;
+            Active_Value.Location = new Point(700, 23);
+            Active_Value.Name = "Active_Value";
+            Active_Value.Size = new Size(64, 19);
+            Active_Value.TabIndex = 1;
+            Active_Value.Text = "Active?";
+            Active_Value.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox4);
+            groupBox1.Controls.Add(API_Value);
             groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(AlternateIDNumber_Value);
             groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(WellName_Value);
             groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(WellIDNumber_Value);
             groupBox1.Location = new Point(6, 6);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(688, 86);
@@ -539,12 +539,12 @@
             label4.TabIndex = 7;
             label4.Text = "API";
             // 
-            // textBox4
+            // API_Value
             // 
-            textBox4.Location = new Point(498, 51);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(184, 23);
-            textBox4.TabIndex = 6;
+            API_Value.Location = new Point(498, 51);
+            API_Value.Name = "API_Value";
+            API_Value.Size = new Size(184, 23);
+            API_Value.TabIndex = 6;
             // 
             // label3
             // 
@@ -555,12 +555,12 @@
             label3.TabIndex = 5;
             label3.Text = "Alternate ID Number";
             // 
-            // textBox3
+            // AlternateIDNumber_Value
             // 
-            textBox3.Location = new Point(498, 22);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(184, 23);
-            textBox3.TabIndex = 4;
+            AlternateIDNumber_Value.Location = new Point(498, 22);
+            AlternateIDNumber_Value.Name = "AlternateIDNumber_Value";
+            AlternateIDNumber_Value.Size = new Size(184, 23);
+            AlternateIDNumber_Value.TabIndex = 4;
             // 
             // label2
             // 
@@ -571,12 +571,12 @@
             label2.TabIndex = 3;
             label2.Text = "Well Name";
             // 
-            // textBox2
+            // WellName_Value
             // 
-            textBox2.Location = new Point(107, 51);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(332, 23);
-            textBox2.TabIndex = 2;
+            WellName_Value.Location = new Point(107, 51);
+            WellName_Value.Name = "WellName_Value";
+            WellName_Value.Size = new Size(332, 23);
+            WellName_Value.TabIndex = 2;
             // 
             // label1
             // 
@@ -587,57 +587,57 @@
             label1.TabIndex = 1;
             label1.Text = "Well ID Number";
             // 
-            // textBox1
+            // WellIDNumber_Value
             // 
-            textBox1.Location = new Point(107, 22);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(184, 23);
-            textBox1.TabIndex = 0;
+            WellIDNumber_Value.Location = new Point(107, 22);
+            WellIDNumber_Value.Name = "WellIDNumber_Value";
+            WellIDNumber_Value.Size = new Size(184, 23);
+            WellIDNumber_Value.TabIndex = 0;
             // 
             // tabPage2
             // 
             tabPage2.Controls.Add(groupBox4);
             tabPage2.Controls.Add(label41);
-            tabPage2.Controls.Add(comboBox2);
-            tabPage2.Controls.Add(textBox34);
+            tabPage2.Controls.Add(Purchaser_Value);
+            tabPage2.Controls.Add(Payout4_Value);
             tabPage2.Controls.Add(label37);
-            tabPage2.Controls.Add(textBox35);
+            tabPage2.Controls.Add(Payout3_Value);
             tabPage2.Controls.Add(label38);
-            tabPage2.Controls.Add(textBox36);
+            tabPage2.Controls.Add(Payout2_Value);
             tabPage2.Controls.Add(label39);
-            tabPage2.Controls.Add(textBox37);
+            tabPage2.Controls.Add(Payout1_Value);
             tabPage2.Controls.Add(label40);
-            tabPage2.Controls.Add(textBox30);
+            tabPage2.Controls.Add(DateTD_Value);
             tabPage2.Controls.Add(label33);
-            tabPage2.Controls.Add(textBox31);
+            tabPage2.Controls.Add(DateTested_Value);
             tabPage2.Controls.Add(label34);
-            tabPage2.Controls.Add(textBox32);
+            tabPage2.Controls.Add(LastFracDate_Value);
             tabPage2.Controls.Add(label35);
-            tabPage2.Controls.Add(textBox33);
+            tabPage2.Controls.Add(RigReleased_Value);
             tabPage2.Controls.Add(label36);
-            tabPage2.Controls.Add(textBox26);
+            tabPage2.Controls.Add(OtherDate2_Value);
             tabPage2.Controls.Add(label29);
-            tabPage2.Controls.Add(textBox27);
+            tabPage2.Controls.Add(OtherDate_Value);
             tabPage2.Controls.Add(label30);
-            tabPage2.Controls.Add(textBox28);
+            tabPage2.Controls.Add(PluggedDate_Value);
             tabPage2.Controls.Add(label31);
-            tabPage2.Controls.Add(textBox29);
+            tabPage2.Controls.Add(LastShutIn_Value);
             tabPage2.Controls.Add(label32);
-            tabPage2.Controls.Add(textBox22);
+            tabPage2.Controls.Add(FirstSalesDate_Value);
             tabPage2.Controls.Add(label25);
-            tabPage2.Controls.Add(textBox23);
+            tabPage2.Controls.Add(DateOnLine_Value);
             tabPage2.Controls.Add(label26);
-            tabPage2.Controls.Add(textBox24);
+            tabPage2.Controls.Add(Completion_Value);
             tabPage2.Controls.Add(label27);
-            tabPage2.Controls.Add(textBox25);
+            tabPage2.Controls.Add(SpudDate_Value);
             tabPage2.Controls.Add(label28);
-            tabPage2.Controls.Add(textBox21);
+            tabPage2.Controls.Add(DateSold_Value);
             tabPage2.Controls.Add(label24);
-            tabPage2.Controls.Add(textBox20);
+            tabPage2.Controls.Add(DateAcquired_Value);
             tabPage2.Controls.Add(label23);
-            tabPage2.Controls.Add(textBox19);
+            tabPage2.Controls.Add(PermitExpire_Value);
             tabPage2.Controls.Add(label22);
-            tabPage2.Controls.Add(textBox18);
+            tabPage2.Controls.Add(PermitEffective_Value);
             tabPage2.Controls.Add(label21);
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
@@ -650,15 +650,13 @@
             // groupBox4
             // 
             groupBox4.Controls.Add(label46);
-            groupBox4.Controls.Add(textBox42);
-            groupBox4.Controls.Add(label45);
-            groupBox4.Controls.Add(textBox41);
+            groupBox4.Controls.Add(SoldTo_Value);
             groupBox4.Controls.Add(label44);
-            groupBox4.Controls.Add(textBox40);
+            groupBox4.Controls.Add(AcquiredFrom_Value);
             groupBox4.Controls.Add(label43);
-            groupBox4.Controls.Add(textBox39);
+            groupBox4.Controls.Add(CurrentOperator_Value);
             groupBox4.Controls.Add(label42);
-            groupBox4.Controls.Add(textBox38);
+            groupBox4.Controls.Add(ResponsibleParty_Value);
             groupBox4.Location = new Point(6, 210);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(840, 128);
@@ -669,34 +667,18 @@
             // label46
             // 
             label46.AutoSize = true;
-            label46.Location = new Point(682, 78);
+            label46.Location = new Point(641, 54);
             label46.Name = "label46";
             label46.Size = new Size(46, 15);
             label46.TabIndex = 9;
             label46.Text = "Sold To";
             // 
-            // textBox42
+            // SoldTo_Value
             // 
-            textBox42.Location = new Point(734, 75);
-            textBox42.Name = "textBox42";
-            textBox42.Size = new Size(100, 23);
-            textBox42.TabIndex = 8;
-            // 
-            // label45
-            // 
-            label45.AutoSize = true;
-            label45.Location = new Point(642, 30);
-            label45.Name = "label45";
-            label45.Size = new Size(86, 15);
-            label45.TabIndex = 7;
-            label45.Text = "Acquired From";
-            // 
-            // textBox41
-            // 
-            textBox41.Location = new Point(734, 25);
-            textBox41.Name = "textBox41";
-            textBox41.Size = new Size(100, 23);
-            textBox41.TabIndex = 6;
+            SoldTo_Value.Location = new Point(693, 51);
+            SoldTo_Value.Name = "SoldTo_Value";
+            SoldTo_Value.Size = new Size(100, 23);
+            SoldTo_Value.TabIndex = 8;
             // 
             // label44
             // 
@@ -707,12 +689,12 @@
             label44.TabIndex = 5;
             label44.Text = "Acquired From";
             // 
-            // textBox40
+            // AcquiredFrom_Value
             // 
-            textBox40.Location = new Point(112, 80);
-            textBox40.Name = "textBox40";
-            textBox40.Size = new Size(100, 23);
-            textBox40.TabIndex = 4;
+            AcquiredFrom_Value.Location = new Point(112, 80);
+            AcquiredFrom_Value.Name = "AcquiredFrom_Value";
+            AcquiredFrom_Value.Size = new Size(100, 23);
+            AcquiredFrom_Value.TabIndex = 4;
             // 
             // label43
             // 
@@ -723,12 +705,12 @@
             label43.TabIndex = 3;
             label43.Text = "Current Operator";
             // 
-            // textBox39
+            // CurrentOperator_Value
             // 
-            textBox39.Location = new Point(112, 51);
-            textBox39.Name = "textBox39";
-            textBox39.Size = new Size(100, 23);
-            textBox39.TabIndex = 2;
+            CurrentOperator_Value.Location = new Point(112, 51);
+            CurrentOperator_Value.Name = "CurrentOperator_Value";
+            CurrentOperator_Value.Size = new Size(100, 23);
+            CurrentOperator_Value.TabIndex = 2;
             // 
             // label42
             // 
@@ -739,12 +721,12 @@
             label42.TabIndex = 1;
             label42.Text = "Responsible Party";
             // 
-            // textBox38
+            // ResponsibleParty_Value
             // 
-            textBox38.Location = new Point(112, 22);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(100, 23);
-            textBox38.TabIndex = 0;
+            ResponsibleParty_Value.Location = new Point(112, 22);
+            ResponsibleParty_Value.Name = "ResponsibleParty_Value";
+            ResponsibleParty_Value.Size = new Size(100, 23);
+            ResponsibleParty_Value.TabIndex = 0;
             // 
             // label41
             // 
@@ -755,20 +737,20 @@
             label41.TabIndex = 41;
             label41.Text = "Purchaser";
             // 
-            // comboBox2
+            // Purchaser_Value
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(381, 181);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(100, 23);
-            comboBox2.TabIndex = 40;
+            Purchaser_Value.FormattingEnabled = true;
+            Purchaser_Value.Location = new Point(381, 181);
+            Purchaser_Value.Name = "Purchaser_Value";
+            Purchaser_Value.Size = new Size(100, 23);
+            Purchaser_Value.TabIndex = 40;
             // 
-            // textBox34
+            // Payout4_Value
             // 
-            textBox34.Location = new Point(746, 152);
-            textBox34.Name = "textBox34";
-            textBox34.Size = new Size(100, 23);
-            textBox34.TabIndex = 39;
+            Payout4_Value.Location = new Point(746, 152);
+            Payout4_Value.Name = "Payout4_Value";
+            Payout4_Value.Size = new Size(100, 23);
+            Payout4_Value.TabIndex = 39;
             // 
             // label37
             // 
@@ -779,12 +761,12 @@
             label37.TabIndex = 38;
             label37.Text = "Payout 4";
             // 
-            // textBox35
+            // Payout3_Value
             // 
-            textBox35.Location = new Point(746, 109);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(100, 23);
-            textBox35.TabIndex = 37;
+            Payout3_Value.Location = new Point(746, 109);
+            Payout3_Value.Name = "Payout3_Value";
+            Payout3_Value.Size = new Size(100, 23);
+            Payout3_Value.TabIndex = 37;
             // 
             // label38
             // 
@@ -795,12 +777,12 @@
             label38.TabIndex = 36;
             label38.Text = "Payout 3";
             // 
-            // textBox36
+            // Payout2_Value
             // 
-            textBox36.Location = new Point(746, 66);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(100, 23);
-            textBox36.TabIndex = 35;
+            Payout2_Value.Location = new Point(746, 66);
+            Payout2_Value.Name = "Payout2_Value";
+            Payout2_Value.Size = new Size(100, 23);
+            Payout2_Value.TabIndex = 35;
             // 
             // label39
             // 
@@ -811,12 +793,12 @@
             label39.TabIndex = 34;
             label39.Text = "Payout 2";
             // 
-            // textBox37
+            // Payout1_Value
             // 
-            textBox37.Location = new Point(746, 21);
-            textBox37.Name = "textBox37";
-            textBox37.Size = new Size(100, 23);
-            textBox37.TabIndex = 33;
+            Payout1_Value.Location = new Point(746, 21);
+            Payout1_Value.Name = "Payout1_Value";
+            Payout1_Value.Size = new Size(100, 23);
+            Payout1_Value.TabIndex = 33;
             // 
             // label40
             // 
@@ -827,12 +809,12 @@
             label40.TabIndex = 32;
             label40.Text = "Payout 1";
             // 
-            // textBox30
+            // DateTD_Value
             // 
-            textBox30.Location = new Point(569, 152);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(100, 23);
-            textBox30.TabIndex = 31;
+            DateTD_Value.Location = new Point(569, 152);
+            DateTD_Value.Name = "DateTD_Value";
+            DateTD_Value.Size = new Size(100, 23);
+            DateTD_Value.TabIndex = 31;
             // 
             // label33
             // 
@@ -843,12 +825,12 @@
             label33.TabIndex = 30;
             label33.Text = "Date TD";
             // 
-            // textBox31
+            // DateTested_Value
             // 
-            textBox31.Location = new Point(569, 109);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(100, 23);
-            textBox31.TabIndex = 29;
+            DateTested_Value.Location = new Point(569, 109);
+            DateTested_Value.Name = "DateTested_Value";
+            DateTested_Value.Size = new Size(100, 23);
+            DateTested_Value.TabIndex = 29;
             // 
             // label34
             // 
@@ -859,12 +841,12 @@
             label34.TabIndex = 28;
             label34.Text = "Date Tested";
             // 
-            // textBox32
+            // LastFracDate_Value
             // 
-            textBox32.Location = new Point(569, 66);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(100, 23);
-            textBox32.TabIndex = 27;
+            LastFracDate_Value.Location = new Point(569, 66);
+            LastFracDate_Value.Name = "LastFracDate_Value";
+            LastFracDate_Value.Size = new Size(100, 23);
+            LastFracDate_Value.TabIndex = 27;
             // 
             // label35
             // 
@@ -875,12 +857,12 @@
             label35.TabIndex = 26;
             label35.Text = "Last Frac Date";
             // 
-            // textBox33
+            // RigReleased_Value
             // 
-            textBox33.Location = new Point(569, 21);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(100, 23);
-            textBox33.TabIndex = 25;
+            RigReleased_Value.Location = new Point(569, 21);
+            RigReleased_Value.Name = "RigReleased_Value";
+            RigReleased_Value.Size = new Size(100, 23);
+            RigReleased_Value.TabIndex = 25;
             // 
             // label36
             // 
@@ -891,12 +873,12 @@
             label36.TabIndex = 24;
             label36.Text = "Rig Released";
             // 
-            // textBox26
+            // OtherDate2_Value
             // 
-            textBox26.Location = new Point(381, 152);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(100, 23);
-            textBox26.TabIndex = 23;
+            OtherDate2_Value.Location = new Point(381, 152);
+            OtherDate2_Value.Name = "OtherDate2_Value";
+            OtherDate2_Value.Size = new Size(100, 23);
+            OtherDate2_Value.TabIndex = 23;
             // 
             // label29
             // 
@@ -907,12 +889,12 @@
             label29.TabIndex = 22;
             label29.Text = "\"Other\" Date 2";
             // 
-            // textBox27
+            // OtherDate_Value
             // 
-            textBox27.Location = new Point(381, 109);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(100, 23);
-            textBox27.TabIndex = 21;
+            OtherDate_Value.Location = new Point(381, 109);
+            OtherDate_Value.Name = "OtherDate_Value";
+            OtherDate_Value.Size = new Size(100, 23);
+            OtherDate_Value.TabIndex = 21;
             // 
             // label30
             // 
@@ -923,12 +905,12 @@
             label30.TabIndex = 20;
             label30.Text = "\"Other\" Date";
             // 
-            // textBox28
+            // PluggedDate_Value
             // 
-            textBox28.Location = new Point(381, 66);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(100, 23);
-            textBox28.TabIndex = 19;
+            PluggedDate_Value.Location = new Point(381, 66);
+            PluggedDate_Value.Name = "PluggedDate_Value";
+            PluggedDate_Value.Size = new Size(100, 23);
+            PluggedDate_Value.TabIndex = 19;
             // 
             // label31
             // 
@@ -939,12 +921,12 @@
             label31.TabIndex = 18;
             label31.Text = "Plugged Date";
             // 
-            // textBox29
+            // LastShutIn_Value
             // 
-            textBox29.Location = new Point(381, 21);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(100, 23);
-            textBox29.TabIndex = 17;
+            LastShutIn_Value.Location = new Point(381, 21);
+            LastShutIn_Value.Name = "LastShutIn_Value";
+            LastShutIn_Value.Size = new Size(100, 23);
+            LastShutIn_Value.TabIndex = 17;
             // 
             // label32
             // 
@@ -955,12 +937,12 @@
             label32.TabIndex = 16;
             label32.Text = "Last Shut-In";
             // 
-            // textBox22
+            // FirstSalesDate_Value
             // 
-            textBox22.Location = new Point(195, 152);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(100, 23);
-            textBox22.TabIndex = 15;
+            FirstSalesDate_Value.Location = new Point(195, 152);
+            FirstSalesDate_Value.Name = "FirstSalesDate_Value";
+            FirstSalesDate_Value.Size = new Size(100, 23);
+            FirstSalesDate_Value.TabIndex = 15;
             // 
             // label25
             // 
@@ -971,12 +953,12 @@
             label25.TabIndex = 14;
             label25.Text = "First Sales Date";
             // 
-            // textBox23
+            // DateOnLine_Value
             // 
-            textBox23.Location = new Point(195, 109);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(100, 23);
-            textBox23.TabIndex = 13;
+            DateOnLine_Value.Location = new Point(195, 109);
+            DateOnLine_Value.Name = "DateOnLine_Value";
+            DateOnLine_Value.Size = new Size(100, 23);
+            DateOnLine_Value.TabIndex = 13;
             // 
             // label26
             // 
@@ -987,12 +969,12 @@
             label26.TabIndex = 12;
             label26.Text = "Date on Line";
             // 
-            // textBox24
+            // Completion_Value
             // 
-            textBox24.Location = new Point(195, 66);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(100, 23);
-            textBox24.TabIndex = 11;
+            Completion_Value.Location = new Point(195, 66);
+            Completion_Value.Name = "Completion_Value";
+            Completion_Value.Size = new Size(100, 23);
+            Completion_Value.TabIndex = 11;
             // 
             // label27
             // 
@@ -1003,12 +985,12 @@
             label27.TabIndex = 10;
             label27.Text = "Completion";
             // 
-            // textBox25
+            // SpudDate_Value
             // 
-            textBox25.Location = new Point(195, 21);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(100, 23);
-            textBox25.TabIndex = 9;
+            SpudDate_Value.Location = new Point(195, 21);
+            SpudDate_Value.Name = "SpudDate_Value";
+            SpudDate_Value.Size = new Size(100, 23);
+            SpudDate_Value.TabIndex = 9;
             // 
             // label28
             // 
@@ -1019,12 +1001,12 @@
             label28.TabIndex = 8;
             label28.Text = "Spud Date";
             // 
-            // textBox21
+            // DateSold_Value
             // 
-            textBox21.Location = new Point(6, 152);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(100, 23);
-            textBox21.TabIndex = 7;
+            DateSold_Value.Location = new Point(6, 152);
+            DateSold_Value.Name = "DateSold_Value";
+            DateSold_Value.Size = new Size(100, 23);
+            DateSold_Value.TabIndex = 7;
             // 
             // label24
             // 
@@ -1035,12 +1017,12 @@
             label24.TabIndex = 6;
             label24.Text = "Date Sold";
             // 
-            // textBox20
+            // DateAcquired_Value
             // 
-            textBox20.Location = new Point(6, 109);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(100, 23);
-            textBox20.TabIndex = 5;
+            DateAcquired_Value.Location = new Point(6, 109);
+            DateAcquired_Value.Name = "DateAcquired_Value";
+            DateAcquired_Value.Size = new Size(100, 23);
+            DateAcquired_Value.TabIndex = 5;
             // 
             // label23
             // 
@@ -1051,12 +1033,12 @@
             label23.TabIndex = 4;
             label23.Text = "Date Acquired";
             // 
-            // textBox19
+            // PermitExpire_Value
             // 
-            textBox19.Location = new Point(6, 66);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(100, 23);
-            textBox19.TabIndex = 3;
+            PermitExpire_Value.Location = new Point(6, 66);
+            PermitExpire_Value.Name = "PermitExpire_Value";
+            PermitExpire_Value.Size = new Size(100, 23);
+            PermitExpire_Value.TabIndex = 3;
             // 
             // label22
             // 
@@ -1067,12 +1049,12 @@
             label22.TabIndex = 2;
             label22.Text = "Permit Expire";
             // 
-            // textBox18
+            // PermitEffective_Value
             // 
-            textBox18.Location = new Point(6, 21);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(100, 23);
-            textBox18.TabIndex = 1;
+            PermitEffective_Value.Location = new Point(6, 21);
+            PermitEffective_Value.Name = "PermitEffective_Value";
+            PermitEffective_Value.Size = new Size(100, 23);
+            PermitEffective_Value.TabIndex = 1;
             // 
             // label21
             // 
@@ -1085,19 +1067,19 @@
             // 
             // tabPage3
             // 
-            tabPage3.Controls.Add(textBox49);
+            tabPage3.Controls.Add(LocationNotes_Value);
             tabPage3.Controls.Add(label53);
-            tabPage3.Controls.Add(textBox48);
+            tabPage3.Controls.Add(WellLegalDescription_Value);
             tabPage3.Controls.Add(label52);
-            tabPage3.Controls.Add(textBox47);
+            tabPage3.Controls.Add(ZCoordinate_Value);
             tabPage3.Controls.Add(label51);
-            tabPage3.Controls.Add(textBox46);
+            tabPage3.Controls.Add(YCoordinate_Value);
             tabPage3.Controls.Add(label50);
-            tabPage3.Controls.Add(textBox45);
+            tabPage3.Controls.Add(XCoordinate_Value);
             tabPage3.Controls.Add(label49);
-            tabPage3.Controls.Add(textBox44);
+            tabPage3.Controls.Add(PoolName_Value);
             tabPage3.Controls.Add(label48);
-            tabPage3.Controls.Add(textBox43);
+            tabPage3.Controls.Add(AreaName_Value);
             tabPage3.Controls.Add(label47);
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
@@ -1107,13 +1089,13 @@
             tabPage3.Text = "Legal";
             tabPage3.UseVisualStyleBackColor = true;
             // 
-            // textBox49
+            // LocationNotes_Value
             // 
-            textBox49.Location = new Point(6, 208);
-            textBox49.Multiline = true;
-            textBox49.Name = "textBox49";
-            textBox49.Size = new Size(840, 130);
-            textBox49.TabIndex = 13;
+            LocationNotes_Value.Location = new Point(6, 208);
+            LocationNotes_Value.Multiline = true;
+            LocationNotes_Value.Name = "LocationNotes_Value";
+            LocationNotes_Value.Size = new Size(840, 130);
+            LocationNotes_Value.TabIndex = 13;
             // 
             // label53
             // 
@@ -1124,13 +1106,13 @@
             label53.TabIndex = 12;
             label53.Text = "Location Notes";
             // 
-            // textBox48
+            // WellLegalDescription_Value
             // 
-            textBox48.Location = new Point(6, 70);
-            textBox48.Multiline = true;
-            textBox48.Name = "textBox48";
-            textBox48.Size = new Size(840, 117);
-            textBox48.TabIndex = 11;
+            WellLegalDescription_Value.Location = new Point(6, 70);
+            WellLegalDescription_Value.Multiline = true;
+            WellLegalDescription_Value.Name = "WellLegalDescription_Value";
+            WellLegalDescription_Value.Size = new Size(840, 117);
+            WellLegalDescription_Value.TabIndex = 11;
             // 
             // label52
             // 
@@ -1141,12 +1123,12 @@
             label52.TabIndex = 10;
             label52.Text = "Well Legal Description";
             // 
-            // textBox47
+            // ZCoordinate_Value
             // 
-            textBox47.Location = new Point(746, 21);
-            textBox47.Name = "textBox47";
-            textBox47.Size = new Size(100, 23);
-            textBox47.TabIndex = 9;
+            ZCoordinate_Value.Location = new Point(746, 21);
+            ZCoordinate_Value.Name = "ZCoordinate_Value";
+            ZCoordinate_Value.Size = new Size(100, 23);
+            ZCoordinate_Value.TabIndex = 9;
             // 
             // label51
             // 
@@ -1157,12 +1139,12 @@
             label51.TabIndex = 8;
             label51.Text = "Z-Coordinate";
             // 
-            // textBox46
+            // YCoordinate_Value
             // 
-            textBox46.Location = new Point(564, 21);
-            textBox46.Name = "textBox46";
-            textBox46.Size = new Size(100, 23);
-            textBox46.TabIndex = 7;
+            YCoordinate_Value.Location = new Point(564, 21);
+            YCoordinate_Value.Name = "YCoordinate_Value";
+            YCoordinate_Value.Size = new Size(100, 23);
+            YCoordinate_Value.TabIndex = 7;
             // 
             // label50
             // 
@@ -1173,12 +1155,12 @@
             label50.TabIndex = 6;
             label50.Text = "Y-Coordinate";
             // 
-            // textBox45
+            // XCoordinate_Value
             // 
-            textBox45.Location = new Point(384, 21);
-            textBox45.Name = "textBox45";
-            textBox45.Size = new Size(100, 23);
-            textBox45.TabIndex = 5;
+            XCoordinate_Value.Location = new Point(384, 21);
+            XCoordinate_Value.Name = "XCoordinate_Value";
+            XCoordinate_Value.Size = new Size(100, 23);
+            XCoordinate_Value.TabIndex = 5;
             // 
             // label49
             // 
@@ -1189,12 +1171,12 @@
             label49.TabIndex = 4;
             label49.Text = "X-Coordinate";
             // 
-            // textBox44
+            // PoolName_Value
             // 
-            textBox44.Location = new Point(196, 21);
-            textBox44.Name = "textBox44";
-            textBox44.Size = new Size(100, 23);
-            textBox44.TabIndex = 3;
+            PoolName_Value.Location = new Point(196, 21);
+            PoolName_Value.Name = "PoolName_Value";
+            PoolName_Value.Size = new Size(100, 23);
+            PoolName_Value.TabIndex = 3;
             // 
             // label48
             // 
@@ -1205,12 +1187,12 @@
             label48.TabIndex = 2;
             label48.Text = "Pool Name";
             // 
-            // textBox43
+            // AreaName_Value
             // 
-            textBox43.Location = new Point(6, 21);
-            textBox43.Name = "textBox43";
-            textBox43.Size = new Size(100, 23);
-            textBox43.TabIndex = 1;
+            AreaName_Value.Location = new Point(6, 21);
+            AreaName_Value.Name = "AreaName_Value";
+            AreaName_Value.Size = new Size(100, 23);
+            AreaName_Value.TabIndex = 1;
             // 
             // label47
             // 
@@ -1223,13 +1205,13 @@
             // 
             // tabPage4
             // 
-            tabPage4.Controls.Add(textBox53);
+            tabPage4.Controls.Add(Field4_Value);
             tabPage4.Controls.Add(label57);
-            tabPage4.Controls.Add(textBox52);
+            tabPage4.Controls.Add(Field3_Value);
             tabPage4.Controls.Add(label56);
-            tabPage4.Controls.Add(textBox51);
+            tabPage4.Controls.Add(Field2_Value);
             tabPage4.Controls.Add(label55);
-            tabPage4.Controls.Add(textBox50);
+            tabPage4.Controls.Add(Field1_Value);
             tabPage4.Controls.Add(label54);
             tabPage4.Location = new Point(4, 24);
             tabPage4.Name = "tabPage4";
@@ -1239,60 +1221,12 @@
             tabPage4.Text = "Other";
             tabPage4.UseVisualStyleBackColor = true;
             // 
-            // label54
+            // Field4_Value
             // 
-            label54.AutoSize = true;
-            label54.Location = new Point(6, 3);
-            label54.Name = "label54";
-            label54.Size = new Size(41, 15);
-            label54.TabIndex = 0;
-            label54.Text = "Field 1";
-            // 
-            // textBox50
-            // 
-            textBox50.Location = new Point(6, 21);
-            textBox50.Name = "textBox50";
-            textBox50.Size = new Size(840, 23);
-            textBox50.TabIndex = 1;
-            // 
-            // textBox51
-            // 
-            textBox51.Location = new Point(6, 118);
-            textBox51.Name = "textBox51";
-            textBox51.Size = new Size(840, 23);
-            textBox51.TabIndex = 3;
-            // 
-            // label55
-            // 
-            label55.AutoSize = true;
-            label55.Location = new Point(6, 100);
-            label55.Name = "label55";
-            label55.Size = new Size(41, 15);
-            label55.TabIndex = 2;
-            label55.Text = "Field 2";
-            // 
-            // textBox52
-            // 
-            textBox52.Location = new Point(6, 216);
-            textBox52.Name = "textBox52";
-            textBox52.Size = new Size(840, 23);
-            textBox52.TabIndex = 5;
-            // 
-            // label56
-            // 
-            label56.AutoSize = true;
-            label56.Location = new Point(6, 198);
-            label56.Name = "label56";
-            label56.Size = new Size(41, 15);
-            label56.TabIndex = 4;
-            label56.Text = "Field 3";
-            // 
-            // textBox53
-            // 
-            textBox53.Location = new Point(6, 315);
-            textBox53.Name = "textBox53";
-            textBox53.Size = new Size(840, 23);
-            textBox53.TabIndex = 7;
+            Field4_Value.Location = new Point(6, 315);
+            Field4_Value.Name = "Field4_Value";
+            Field4_Value.Size = new Size(840, 23);
+            Field4_Value.TabIndex = 7;
             // 
             // label57
             // 
@@ -1303,11 +1237,81 @@
             label57.TabIndex = 6;
             label57.Text = "Field 4";
             // 
+            // Field3_Value
+            // 
+            Field3_Value.Location = new Point(6, 216);
+            Field3_Value.Name = "Field3_Value";
+            Field3_Value.Size = new Size(840, 23);
+            Field3_Value.TabIndex = 5;
+            // 
+            // label56
+            // 
+            label56.AutoSize = true;
+            label56.Location = new Point(6, 198);
+            label56.Name = "label56";
+            label56.Size = new Size(41, 15);
+            label56.TabIndex = 4;
+            label56.Text = "Field 3";
+            // 
+            // Field2_Value
+            // 
+            Field2_Value.Location = new Point(6, 118);
+            Field2_Value.Name = "Field2_Value";
+            Field2_Value.Size = new Size(840, 23);
+            Field2_Value.TabIndex = 3;
+            // 
+            // label55
+            // 
+            label55.AutoSize = true;
+            label55.Location = new Point(6, 100);
+            label55.Name = "label55";
+            label55.Size = new Size(41, 15);
+            label55.TabIndex = 2;
+            label55.Text = "Field 2";
+            // 
+            // Field1_Value
+            // 
+            Field1_Value.Location = new Point(6, 21);
+            Field1_Value.Name = "Field1_Value";
+            Field1_Value.Size = new Size(840, 23);
+            Field1_Value.TabIndex = 1;
+            // 
+            // label54
+            // 
+            label54.AutoSize = true;
+            label54.Location = new Point(6, 3);
+            label54.Name = "label54";
+            label54.Size = new Size(41, 15);
+            label54.TabIndex = 0;
+            label54.Text = "Field 1";
+            // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 11;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 12;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
+            // 
             // Wells
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
             Controls.Add(tabControl1);
             Name = "Wells";
             Text = "Wells";
@@ -1344,118 +1348,118 @@
         private Label label8;
         private Label label7;
         private Label label6;
-        private TextBox textBox8;
-        private TextBox textBox7;
-        private TextBox textBox6;
+        private TextBox PayoutCode_Value;
+        private TextBox AcquisitionCode_Value;
+        private TextBox WellStatus_Value;
         private Label label5;
-        private TextBox textBox5;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
+        private TextBox WellType_Value;
+        private CheckBox SplitStream_Value;
+        private CheckBox OKToPay_Value;
+        private CheckBox Active_Value;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox API_Value;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox AlternateIDNumber_Value;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox WellName_Value;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox WellIDNumber_Value;
         private Label label18;
-        private TextBox textBox15;
+        private TextBox Meter2_Value;
         private Label label17;
-        private TextBox textBox14;
+        private TextBox Meter1_Value;
         private Label label16;
-        private TextBox textBox13;
+        private TextBox ProducingFrom_Value;
         private Label label15;
-        private TextBox textBox12;
+        private TextBox TankBattery_Value;
         private Label label14;
-        private TextBox textBox11;
+        private TextBox PermitNumber_Value;
         private Label label13;
         private Label label12;
         private Label label11;
-        private TextBox textBox10;
+        private TextBox TotalDepth_Value;
         private Label label10;
-        private ComboBox comboBox1;
+        private ComboBox AcreageType_Value;
         private Label label9;
-        private TextBox textBox9;
+        private TextBox ProspectID_Value;
         private Label label20;
-        private TextBox textBox17;
+        private TextBox Meter4_Value;
         private Label label19;
-        private TextBox textBox16;
-        private TextBox textBox30;
+        private TextBox Meter3_Value;
+        private TextBox DateTD_Value;
         private Label label33;
-        private TextBox textBox31;
+        private TextBox DateTested_Value;
         private Label label34;
-        private TextBox textBox32;
+        private TextBox LastFracDate_Value;
         private Label label35;
-        private TextBox textBox33;
+        private TextBox RigReleased_Value;
         private Label label36;
-        private TextBox textBox26;
+        private TextBox OtherDate2_Value;
         private Label label29;
-        private TextBox textBox27;
+        private TextBox OtherDate_Value;
         private Label label30;
-        private TextBox textBox28;
+        private TextBox PluggedDate_Value;
         private Label label31;
-        private TextBox textBox29;
+        private TextBox LastShutIn_Value;
         private Label label32;
-        private TextBox textBox22;
+        private TextBox FirstSalesDate_Value;
         private Label label25;
-        private TextBox textBox23;
+        private TextBox DateOnLine_Value;
         private Label label26;
-        private TextBox textBox24;
+        private TextBox Completion_Value;
         private Label label27;
-        private TextBox textBox25;
+        private TextBox SpudDate_Value;
         private Label label28;
-        private TextBox textBox21;
+        private TextBox DateSold_Value;
         private Label label24;
-        private TextBox textBox20;
+        private TextBox DateAcquired_Value;
         private Label label23;
-        private TextBox textBox19;
+        private TextBox PermitExpire_Value;
         private Label label22;
-        private TextBox textBox18;
+        private TextBox PermitEffective_Value;
         private Label label21;
         private GroupBox groupBox4;
         private Label label46;
-        private TextBox textBox42;
-        private Label label45;
-        private TextBox textBox41;
+        private TextBox SoldTo_Value;
         private Label label44;
-        private TextBox textBox40;
+        private TextBox AcquiredFrom_Value;
         private Label label43;
-        private TextBox textBox39;
+        private TextBox CurrentOperator_Value;
         private Label label42;
-        private TextBox textBox38;
+        private TextBox ResponsibleParty_Value;
         private Label label41;
-        private ComboBox comboBox2;
-        private TextBox textBox34;
+        private ComboBox Purchaser_Value;
+        private TextBox Payout4_Value;
         private Label label37;
-        private TextBox textBox35;
+        private TextBox Payout3_Value;
         private Label label38;
-        private TextBox textBox36;
+        private TextBox Payout2_Value;
         private Label label39;
-        private TextBox textBox37;
+        private TextBox Payout1_Value;
         private Label label40;
-        private TextBox textBox45;
+        private TextBox XCoordinate_Value;
         private Label label49;
-        private TextBox textBox44;
+        private TextBox PoolName_Value;
         private Label label48;
-        private TextBox textBox43;
+        private TextBox AreaName_Value;
         private Label label47;
-        private TextBox textBox49;
+        private TextBox LocationNotes_Value;
         private Label label53;
-        private TextBox textBox48;
+        private TextBox WellLegalDescription_Value;
         private Label label52;
-        private TextBox textBox47;
+        private TextBox ZCoordinate_Value;
         private Label label51;
-        private TextBox textBox46;
+        private TextBox YCoordinate_Value;
         private Label label50;
-        private TextBox textBox50;
+        private TextBox Field1_Value;
         private Label label54;
-        private TextBox textBox53;
+        private TextBox Field4_Value;
         private Label label57;
-        private TextBox textBox52;
+        private TextBox Field3_Value;
         private Label label56;
-        private TextBox textBox51;
+        private TextBox Field2_Value;
         private Label label55;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

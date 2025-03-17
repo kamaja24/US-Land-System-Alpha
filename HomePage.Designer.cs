@@ -48,6 +48,8 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            button17 = new Button();
+            button18 = new Button();
             SuspendLayout();
             // 
             // PPIButton
@@ -247,12 +249,35 @@
             button16.TabIndex = 19;
             button16.Text = "Wells";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(709, 157);
+            button17.Name = "button17";
+            button17.Size = new Size(163, 23);
+            button17.TabIndex = 20;
+            button17.Text = "WI_Decks_Interest";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // button18
+            // 
+            button18.Location = new Point(709, 186);
+            button18.Name = "button18";
+            button18.Size = new Size(163, 23);
+            button18.TabIndex = 21;
+            button18.Text = "WI_Decks";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
             // 
             // HomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
+            Controls.Add(button18);
+            Controls.Add(button17);
             Controls.Add(button16);
             Controls.Add(button15);
             Controls.Add(button14);
@@ -300,5 +325,7 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Button button17;
+        private Button button18;
     }
 }

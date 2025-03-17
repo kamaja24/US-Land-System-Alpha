@@ -28,31 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            OwnerID_Value = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
+            InterestFormula_Value = new TextBox();
             label2 = new Label();
-            textBox3 = new TextBox();
+            Interest_Value = new TextBox();
             label3 = new Label();
-            textBox4 = new TextBox();
+            Effective_Value = new TextBox();
             label4 = new Label();
-            textBox5 = new TextBox();
+            ExpirationDate_Value = new TextBox();
             label5 = new Label();
-            textBox6 = new TextBox();
+            SuspenseCode_Value = new TextBox();
             label6 = new Label();
             label7 = new Label();
-            comboBox1 = new ComboBox();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
+            InterestType_Value = new ComboBox();
+            SendReports_Value = new CheckBox();
+            Active_Value = new CheckBox();
+            BackButton = new Button();
+            SaveButton = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // OwnerID_Value
             // 
-            textBox1.Location = new Point(111, 77);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(218, 23);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            OwnerID_Value.Location = new Point(111, 77);
+            OwnerID_Value.Name = "OwnerID_Value";
+            OwnerID_Value.Size = new Size(218, 23);
+            OwnerID_Value.TabIndex = 0;
+            OwnerID_Value.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -63,13 +65,13 @@
             label1.TabIndex = 1;
             label1.Text = "Owner ID";
             // 
-            // textBox2
+            // InterestFormula_Value
             // 
-            textBox2.Location = new Point(111, 106);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(687, 88);
-            textBox2.TabIndex = 2;
+            InterestFormula_Value.Location = new Point(111, 106);
+            InterestFormula_Value.Multiline = true;
+            InterestFormula_Value.Name = "InterestFormula_Value";
+            InterestFormula_Value.Size = new Size(687, 88);
+            InterestFormula_Value.TabIndex = 2;
             // 
             // label2
             // 
@@ -80,12 +82,12 @@
             label2.TabIndex = 3;
             label2.Text = "Interest Formula";
             // 
-            // textBox3
+            // Interest_Value
             // 
-            textBox3.Location = new Point(111, 200);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(218, 23);
-            textBox3.TabIndex = 4;
+            Interest_Value.Location = new Point(111, 200);
+            Interest_Value.Name = "Interest_Value";
+            Interest_Value.Size = new Size(218, 23);
+            Interest_Value.TabIndex = 4;
             // 
             // label3
             // 
@@ -96,12 +98,12 @@
             label3.TabIndex = 5;
             label3.Text = "Interest";
             // 
-            // textBox4
+            // Effective_Value
             // 
-            textBox4.Location = new Point(111, 229);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(218, 23);
-            textBox4.TabIndex = 6;
+            Effective_Value.Location = new Point(111, 229);
+            Effective_Value.Name = "Effective_Value";
+            Effective_Value.Size = new Size(218, 23);
+            Effective_Value.TabIndex = 6;
             // 
             // label4
             // 
@@ -112,12 +114,12 @@
             label4.TabIndex = 7;
             label4.Text = "Effective";
             // 
-            // textBox5
+            // ExpirationDate_Value
             // 
-            textBox5.Location = new Point(111, 258);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(218, 23);
-            textBox5.TabIndex = 8;
+            ExpirationDate_Value.Location = new Point(111, 258);
+            ExpirationDate_Value.Name = "ExpirationDate_Value";
+            ExpirationDate_Value.Size = new Size(218, 23);
+            ExpirationDate_Value.TabIndex = 8;
             // 
             // label5
             // 
@@ -128,12 +130,12 @@
             label5.TabIndex = 9;
             label5.Text = "Expiration Date";
             // 
-            // textBox6
+            // SuspenseCode_Value
             // 
-            textBox6.Location = new Point(111, 287);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(218, 23);
-            textBox6.TabIndex = 10;
+            SuspenseCode_Value.Location = new Point(111, 287);
+            SuspenseCode_Value.Name = "SuspenseCode_Value";
+            SuspenseCode_Value.Size = new Size(218, 23);
+            SuspenseCode_Value.TabIndex = 10;
             // 
             // label6
             // 
@@ -153,55 +155,77 @@
             label7.TabIndex = 13;
             label7.Text = "Interest Type";
             // 
-            // comboBox1
+            // InterestType_Value
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(111, 316);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(218, 23);
-            comboBox1.TabIndex = 14;
+            InterestType_Value.FormattingEnabled = true;
+            InterestType_Value.Location = new Point(111, 316);
+            InterestType_Value.Name = "InterestType_Value";
+            InterestType_Value.Size = new Size(218, 23);
+            InterestType_Value.TabIndex = 14;
             // 
-            // checkBox1
+            // SendReports_Value
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(698, 202);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(100, 19);
-            checkBox1.TabIndex = 15;
-            checkBox1.Text = "Send Reports?";
-            checkBox1.UseVisualStyleBackColor = true;
+            SendReports_Value.AutoSize = true;
+            SendReports_Value.Location = new Point(698, 202);
+            SendReports_Value.Name = "SendReports_Value";
+            SendReports_Value.Size = new Size(100, 19);
+            SendReports_Value.TabIndex = 15;
+            SendReports_Value.Text = "Send Reports?";
+            SendReports_Value.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // Active_Value
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(698, 318);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(64, 19);
-            checkBox2.TabIndex = 16;
-            checkBox2.Text = "Active?";
-            checkBox2.UseVisualStyleBackColor = true;
+            Active_Value.AutoSize = true;
+            Active_Value.Location = new Point(698, 318);
+            Active_Value.Name = "Active_Value";
+            Active_Value.Size = new Size(64, 19);
+            Active_Value.TabIndex = 16;
+            Active_Value.Text = "Active?";
+            Active_Value.UseVisualStyleBackColor = true;
+            // 
+            // BackButton
+            // 
+            BackButton.Location = new Point(12, 12);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(75, 23);
+            BackButton.TabIndex = 17;
+            BackButton.Text = "Back";
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += BackButton_Click;
+            // 
+            // SaveButton
+            // 
+            SaveButton.Location = new Point(797, 12);
+            SaveButton.Name = "SaveButton";
+            SaveButton.Size = new Size(75, 23);
+            SaveButton.TabIndex = 18;
+            SaveButton.Text = "Save";
+            SaveButton.UseVisualStyleBackColor = true;
+            SaveButton.Click += SaveButton_Click;
             // 
             // WI_Decks_Interest
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 461);
-            Controls.Add(checkBox2);
-            Controls.Add(checkBox1);
-            Controls.Add(comboBox1);
+            Controls.Add(SaveButton);
+            Controls.Add(BackButton);
+            Controls.Add(Active_Value);
+            Controls.Add(SendReports_Value);
+            Controls.Add(InterestType_Value);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(textBox6);
+            Controls.Add(SuspenseCode_Value);
             Controls.Add(label5);
-            Controls.Add(textBox5);
+            Controls.Add(ExpirationDate_Value);
             Controls.Add(label4);
-            Controls.Add(textBox4);
+            Controls.Add(Effective_Value);
             Controls.Add(label3);
-            Controls.Add(textBox3);
+            Controls.Add(Interest_Value);
             Controls.Add(label2);
-            Controls.Add(textBox2);
+            Controls.Add(InterestFormula_Value);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(OwnerID_Value);
             Name = "WI_Decks_Interest";
             Text = "WI_Decks_Interest";
             ResumeLayout(false);
@@ -210,21 +234,23 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox OwnerID_Value;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox InterestFormula_Value;
         private Label label2;
-        private TextBox textBox3;
+        private TextBox Interest_Value;
         private Label label3;
-        private TextBox textBox4;
+        private TextBox Effective_Value;
         private Label label4;
-        private TextBox textBox5;
+        private TextBox ExpirationDate_Value;
         private Label label5;
-        private TextBox textBox6;
+        private TextBox SuspenseCode_Value;
         private Label label6;
         private Label label7;
-        private ComboBox comboBox1;
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
+        private ComboBox InterestType_Value;
+        private CheckBox SendReports_Value;
+        private CheckBox Active_Value;
+        private Button BackButton;
+        private Button SaveButton;
     }
 }

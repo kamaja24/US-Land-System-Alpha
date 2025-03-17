@@ -139,5 +139,26 @@ namespace US_Land_System_Alpha
             Tracts tracts = new Tracts();
             tracts.Show();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Wells wells = new Wells();
+            wells.Show();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            WI_Decks_Interest wI_Decks_Interest = new WI_Decks_Interest();
+            wI_Decks_Interest.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            WI_Decks wI_Decks = new WI_Decks();
+            wI_Decks.Show();
+        }
     }
 }

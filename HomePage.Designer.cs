@@ -150,6 +150,7 @@
             button6.TabIndex = 9;
             button6.Text = "Leases";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 

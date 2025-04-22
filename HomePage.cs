@@ -160,5 +160,12 @@ namespace US_Land_System_Alpha
             WI_Decks wI_Decks = new WI_Decks();
             wI_Decks.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Leases leases = new Leases();
+            leases.Show();
+        }
     }
 }
